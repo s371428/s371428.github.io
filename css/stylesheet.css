@@ -1,0 +1,38 @@
+body, nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    height: 75px;
+    background-color: azure;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    align-items: center;
+    user-select: none;
+    list-style-type: none;
+}
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+@media (min-width: 1250px) { /*Normal*/
+    ul {
+color:red;
+    }
+}
+@media (max-width: 1250px) { /*Phone or device with smaller screen than the usual*/
+    ul {
+color: blue;
+    }
+}
+
+.content-container {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
