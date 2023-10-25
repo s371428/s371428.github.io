@@ -36,3 +36,18 @@ color: blue;
     padding: 0;
     background-color: white;
 }
+
+main {
+    display: grid;
+    grid-template-rows: minmax(80vh, 90vh) auto;
+}
+
+.indexIntro {
+    grid-row-start: 1;
+    background-image: url(../media/pexels_terracedfarm.jpg);
+    object-fit: fill;
+}
+h1 {
+    text-align: center;
+    
+}
