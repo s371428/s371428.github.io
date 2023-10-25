@@ -3,6 +3,11 @@ body, nav {
     padding: 0;
 }
 /* Index */
+.nav-container {
+width: 100%;
+height: 75px;
+background-color: red;
+}
 
 .list-container {
     margin: 0;
