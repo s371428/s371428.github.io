@@ -80,6 +80,10 @@ main {
     grid-template-rows: minmax(80vh, 90vh) auto;
 }
 
+h1 {
+    
+}
+
 .indexIntro {
     grid-row-start: 1;
     background-image: url(../media/pexels_terracedfarm.jpg);
