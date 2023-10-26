@@ -72,7 +72,6 @@ color:red;
 .content-container {
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
 main {
@@ -84,6 +83,21 @@ h1 {
     display: grid;
 }
 
+.indexMain{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+
 .indexIntro {
     grid-row-start: 1;
     background-image: url(../media/pexels_terracedfarm.jpg);
@@ -93,16 +107,31 @@ h1 {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 250px;
+    padding-top: 20px;
     font-size: 50px;
     color: white;
     text-shadow: 1px 1px 4px #000;
 }
 
-.Introduction-setion{
-
+.Introduction-section{
+    background-color: rgb(188, 186, 158);
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+    font-size: 20px;
 }
 
+.Introduction-section h2{
+    position: center;
+    margin-left: 250px;
+    margin-top: 250px
+}
+
+.Introduction-section p{
+    position: center;
+    margin-left: 250px;
+    margin-bottom: 400px;
+    
+}
 /* Accessability */
 
 /* Topical */
