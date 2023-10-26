@@ -85,8 +85,11 @@ main {
     background-image: url(../media/pexels_terracedfarm.jpg);
     object-fit: fill;
 }
-h1 {
+.indexIntro h1{
     text-align: center;
+    padding-top: 250px;
+    font-size: 50px;
+
     
 }
 
