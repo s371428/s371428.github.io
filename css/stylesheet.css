@@ -114,7 +114,7 @@ section{
 }
 
 .Introduction-section{
-    background-color: rgb(188, 186, 158);
+    background-color: #FFD500;
     color: white;
     text-shadow: 1px 1px 4px #000;
     font-size: 20px;
@@ -122,14 +122,15 @@ section{
 
 .Introduction-section h2{
     position: center;
-    margin-left: 250px;
+    margin-left: 300px;
     margin-top: 250px
 }
 
 .Introduction-section p{
     position: center;
-    margin-left: 250px;
+    margin-left: 300px;
     margin-bottom: 400px;
+    width: 50%
     
 }
 /* Accessability */
