@@ -81,7 +81,7 @@ main {
 }
 
 h1 {
-    
+    display: grid;
 }
 
 .indexIntro {
