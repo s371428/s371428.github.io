@@ -83,13 +83,13 @@ h1 {
     display: grid;
 }
 
-.indexMain{
+main{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
 }
 
-section{
+.Introduction-section, .indexIntro{
     height: 100vh;
     display: grid;
     justify-content: center;
