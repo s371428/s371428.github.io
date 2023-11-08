@@ -99,6 +99,8 @@ color:rgb(230, 197, 147);
 }
 
 
+
+
 .indexIntro {
     grid-row-start: 1;
     background-image: url(../media/pexels_terracedfarm.jpg);
@@ -148,7 +150,21 @@ color:rgb(230, 197, 147);
 /* END Index */
 
 /* Accessability */
-
+.accessability-introduction, .accessability-text {
+    justify-content: center;
+    align-items: center;  
+}
+.accessability-introduction {
+    grid-row-start: 1;
+    background-image: url(../media/northern-lights.jpg); 
+    /*https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
+}
+.accessability-text {
+    grid-row-start: 2;
+}
+.accessability-backdrop {
+    background-color: #000000ef;; 
+}
 
 /* Topical */
 
