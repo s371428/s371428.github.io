@@ -89,6 +89,7 @@ main {
     grid-template-rows: minmax(80vh, 90vh) auto;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;    
+    height: 100vh;
 }
 
 .Introduction-section, .indexIntro{    
