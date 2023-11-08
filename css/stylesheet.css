@@ -6,7 +6,7 @@ body, nav {
 /* Index */
 
 /* START Nav bar */
-.nav_container {
+.nav-container {
 width: 100%;
 height: 75px;
 background-color: rgb(230, 197, 147);
@@ -84,7 +84,7 @@ color:rgb(230, 197, 147);;
     padding: 0;
 }
 
-.main_common {
+.main-common {
     display: grid;
     grid-template-rows: minmax(80vh, 90vh) auto;
       
@@ -136,7 +136,7 @@ color:rgb(230, 197, 147);;
     
 }
 
-.footer_common {
+.footer-common {
     padding-top: 1px;
     width: 100%;
     height: 150px;
