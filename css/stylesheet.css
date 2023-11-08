@@ -55,7 +55,7 @@ input {
 
 @media (min-width: 1250px) { /*Normal*/
     ul {
-color:red;
+color:rgb(230, 197, 147);;
     }
     #menu-toggle-container {
         display: none;
