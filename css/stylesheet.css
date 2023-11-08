@@ -6,10 +6,10 @@ body, nav {
 /* Index */
 
 /* START Nav bar */
-.nav-container {
+nav {
 width: 100%;
 height: 75px;
-background-color: red;
+background-color: rgb(230, 197, 147);
 grid-template-rows: none;
 
 }
@@ -25,14 +25,14 @@ grid-template-rows: none;
     user-select: none;
     list-style-type: none;
 }
-li {
+.nav-container li {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 30px;
 }
 
 .dropdown-button:checked .list-container {
-    background-color: red;
+    background-color: rgb(230, 197, 147);
 
 }
 input {
@@ -43,7 +43,7 @@ input {
     top: 25px;
     left: 25px;
     position: absolute;
-    background-color: red;
+    background-color: rgb(230, 197, 147);
 }
 .menu-toggle-icon {
     width: 36px;
@@ -87,8 +87,8 @@ color:red;
 main {
     display: grid;
     grid-template-rows: minmax(80vh, 90vh) auto;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;    
+      
+    height: 100vh;
 }
 
 .Introduction-section, .indexIntro{    
@@ -102,7 +102,7 @@ main {
     grid-row-start: 1;
     background-image: url(../media/pexels_terracedfarm.jpg);
     object-fit: fill;
-    scroll-snap-align: start;
+    
 }
 .indexIntro h1{
     text-align: center;
@@ -119,7 +119,7 @@ main {
     color: white;
     text-shadow: 1px 1px 4px #000;
     font-size: 20px;
-    scroll-snap-align: start;
+    
 }
 
 .Introduction-section h2{
@@ -136,53 +136,24 @@ main {
     
 }
 
-/* Accessability */
-.nav-container-accessibility{
-    padding-top: 1px;
-    width: 100%;
-    height: 75px;
-    background-color: #F71735;
-}
-
-.footer-container-accessibility{
+footer {
     padding-top: 1px;
     width: 100%;
     height: 150px;
     color: white;
     background-color: #000000;
 }
+
+/* Accessability */
+
 
 /* Topical */
-.nav-container-topical{
-    padding-top: 1px;
-    width: 100%;
-    height: 75px;
-    background-color: #FFD500;
-}
 
-.footer-container-topical{
-    padding-top: 1px;
-    width: 100%;
-    height: 150px;
-    color: white;
-    background-color: #000000;
-}
+
 
 /* Page 1 */
-.nav-container-page1{
-    padding-top: 1px;
-    width: 100%;
-    height: 75px;
-    background-color: #00A7A2;
-}
 
-.footer-container-page1{
-    padding-top: 1px;
-    width: 100%;
-    height: 150px;
-    color: white;
-    background-color: #000000;
-}
+
 
 /* Page 2 */
 .nav-container-page2{
