@@ -87,8 +87,7 @@ color:red;
 main {
     display: grid;
     grid-template-rows: minmax(80vh, 90vh) auto;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;    
+      
     height: 100vh;
 }
 
@@ -103,7 +102,7 @@ main {
     grid-row-start: 1;
     background-image: url(../media/pexels_terracedfarm.jpg);
     object-fit: fill;
-    scroll-snap-align: start;
+    
 }
 .indexIntro h1{
     text-align: center;
@@ -120,7 +119,7 @@ main {
     color: white;
     text-shadow: 1px 1px 4px #000;
     font-size: 20px;
-    scroll-snap-align: start;
+    
 }
 
 .Introduction-section h2{
