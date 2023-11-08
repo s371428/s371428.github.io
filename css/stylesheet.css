@@ -192,6 +192,14 @@ main {
     background: radial-gradient(#186E5A 12%, #176942 27%, #184A5A);
 }
 
+.body-page2{
+    background-color: #5f5d5d;
+}
+/*Title page2*/ 
+.h1-page2{
+    font-family: Georgia, serif;
+
+}
 .footer-container-page2{
     padding-top: 1px;
     width: 100%;
