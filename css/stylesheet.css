@@ -87,7 +87,7 @@ color:rgb(230, 197, 147);
 .main-common {
     display: grid;
     grid-template-rows: minmax(80vh, 90vh) auto;
-    height: 100vh;
+    
 }
 
 .Introduction-section, .indexIntro{    
