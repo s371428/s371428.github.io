@@ -178,6 +178,28 @@ color:rgb(230, 197, 147);
 }
 
 /* Topical */
+.topical-introducion {
+    background-color: rgb(104, 104, 255);
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.topical-introducion h1{
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.topical-introducion p{
+    margin-left: 400px;
+    margin-right: 400px;
+    line-height: 23px;
+}
+
+.topical-content {
+    display: grid;
+}
+
 
 
 
