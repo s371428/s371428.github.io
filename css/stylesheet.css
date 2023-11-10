@@ -87,8 +87,7 @@ color:rgb(230, 197, 147);
 
 
 .main-container {
-    display: grid;
-    grid-template-rows: minmax(80vh, 90vh) auto;
+    
     
 }
 
@@ -155,26 +154,48 @@ color:rgb(230, 197, 147);
     align-items: center;  
 }
 .accessability-introduction {
+    height: 90vh;
     grid-row-start: 1;
     background-image: url(../media/northern-lights.jpg); 
-    /*https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
+    /*By pixabay content liscense. Image copied from:
+    https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
 }
-.accessability-text {
-    grid-row-start: 2;
-    padding-left: 10%;
-    color: white;
-    background-color: #000000ef;    
-}
-.accessability-backdrop {    
+.accessability-backdrop { 
     align-items: center;
-    margin-left: 10%;
-    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: auto;
     height: 100%;
     color: white;
-    background-color: #000000ef;    
+    background-color: rgb(16, 16, 16);    
 }
 .accessability-h1 {
     margin-top: 0;
+}
+
+.accessability-text {  
+    height: 100vh;  
+    grid-row-start: 2;    
+    padding-left: 15%; 
+    padding-right: 15%; 
+    background-color: rgb(16, 16, 16); 
+    padding-top: 5%;
+    padding-bottom: 5%;  
+    color: white; 
+}
+.decoration-archer {    
+    filter: invert(1);
+    width: 400px;
+    
+}
+.accessibility-reflection {
+    display: flex; 
+    color: white;
+    flex-direction: row;
 }
 
 /* Topical */
