@@ -202,8 +202,8 @@ color:rgb(230, 197, 147);
 
 /* Topical */
 .topical-introducion {
+    display: grid;
     background-color: rgb(104, 104, 255);
-    margin-top: -30px;
     height: 300px;
     text-align: center;
     color: white;
@@ -222,6 +222,8 @@ color:rgb(230, 197, 147);
 
 .topical-content {
     display: grid;
+    background-color: #ffffffef;
+    color: rgb(0, 0, 0);
 }
 
 
