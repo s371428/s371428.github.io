@@ -87,7 +87,7 @@ color:rgb(230, 197, 147);
 
 
 .main-container {
-    
+    display: grid;
     
 }
 
