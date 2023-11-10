@@ -87,8 +87,7 @@ color:rgb(230, 197, 147);
 
 
 .main-container {
-    display: grid;
-    grid-template-rows: minmax(80vh, 90vh) auto;
+    
     
 }
 
@@ -155,6 +154,7 @@ color:rgb(230, 197, 147);
     align-items: center;  
 }
 .accessability-introduction {
+    height: 90vh;
     grid-row-start: 1;
     background-image: url(../media/northern-lights.jpg); 
     /*By pixabay content liscense. Image copied from:
@@ -177,7 +177,8 @@ color:rgb(230, 197, 147);
     margin-top: 0;
 }
 
-.accessability-text {    
+.accessability-text {  
+    height: 100vh;  
     grid-row-start: 2;    
     padding-left: 15%; 
     padding-right: 15%; 
