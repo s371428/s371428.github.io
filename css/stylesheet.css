@@ -224,10 +224,44 @@ color:rgb(230, 197, 147);
     display: grid;
     background-color: #ffffffef;
     color: rgb(0, 0, 0);
+    
 }
 
 .topical-content-diversity {
     display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.topical-content-complex-problems {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.topical-content-favors-working-in-a-group{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.topical-content-ctritical-thinking{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.topical-content-handling-group-conflict{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 
