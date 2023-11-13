@@ -21,13 +21,14 @@ grid-template-rows: none;
 
 /*Selects all links inside nav*/
 nav a {
-    color: rgb(230, 197, 147);
+    color:#000000;
+    text-decoration: none;
 }
 /*List definition within nav*/
 .list-container {
     margin: 0;
     height: 75px;
-    /*background-color: rgb(104, 104, 255);*/
+    background-color:#ffd500;
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
@@ -43,9 +44,9 @@ nav a {
     font-size: 30px;
 }
 
-#menu-toggle:checked ~ ul li{
-    background-color: yellow;
-
+#menu-toggle:checked ~ ul{
+   left: 0px;
+}
 /*Colorchange for menu dropdown*/
 .dropdown-button:checked .list-container {
     background-color: rgb(230, 197, 147);
@@ -72,9 +73,10 @@ input {
 }
 @media (max-width: 1250px) { /*Phone or device with smaller screen than the usual*/
     .list-container {
+        transition: linear 100ms;
         position: absolute;
         height: 200px;
-        left: -200px;
+        left: -500px;
         top: 75px;
         width: 200px;
         color: gold;
@@ -84,7 +86,7 @@ input {
 }
 @media (min-width: 1250px) { /*Wide-screen*/
     ul {
-color:rgb(230, 197, 147);
+        color:rgb(230, 197, 147);
     }
     #menu-toggle-container {
         display: none;
@@ -114,6 +116,7 @@ color:rgb(230, 197, 147);
 .indexIntro {
     grid-row-start: 1;
     background-image: url(../media/pexels-terracedfarm.jpg);
+    background-size:cover;
     object-fit: fill;
     height: 90vh;    
 }
@@ -134,17 +137,16 @@ color:rgb(230, 197, 147);
     text-shadow: 1px 1px 4px #000;
     font-size: 20px;
     height: 100vh;
-    
 }
 /**/ 
 .introduction-section h2{
-    position: center;
+    position: center; /*Center is not a position*/
     margin-left: 300px;
     margin-top: 250px
 }
 /**/ 
 .introduction-section p{
-    position: center;
+    position: center; /*Center is not a position*/
     margin-left: 300px;
     margin-bottom: 400px;
     width: 50%
@@ -301,4 +303,3 @@ color:rgb(230, 197, 147);
     color: white;
     background-color: #724b4b;
 }
-
