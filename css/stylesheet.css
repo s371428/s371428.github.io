@@ -166,25 +166,26 @@ color:rgb(230, 197, 147);
     align-items: center;  
 }
 /**/ 
-.accessability-introduction {
-    height: 90vh;
-    grid-row-start: 1;
+.accessability-backdrop {
+    height: 100vh;
     background-image: url(../media/northern-lights.jpg); 
     /*By pixabay content liscense. Image copied from:
     https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
 }
 /**/ 
-.accessability-backdrop { 
+.intro-text { 
     align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
     padding-bottom: 5%;
     margin-left: 10vw;
     margin-right: 10vw;
     width: auto;
     height: 100%;
     color: white;
+    font-size: 1.5em;
+    line-height: 1.5em;
     background-color: rgb(16, 16, 16);    
 }
 /**/ 
@@ -192,7 +193,7 @@ color:rgb(230, 197, 147);
     margin-top: 0;
 }
 /**/ 
-.accessability-text {  
+.further-text {  
     height: 100vh;  
     grid-row-start: 2;    
     padding-left: 15%; 
@@ -249,6 +250,15 @@ color:rgb(230, 197, 147);
 
 
 /* Page 1 */
+.page1-backdrop {
+    height: 100vh;
+    background-image: url(../media/northern-lights.jpg); 
+    /*By pixabay content liscense. Image copied from:
+    https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
+}
+.page1-h1 {
+    margin-top: 0;
+}
 
 
 
