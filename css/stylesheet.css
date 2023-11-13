@@ -252,9 +252,10 @@ color:rgb(230, 197, 147);
 /* Page 1 */
 .page1-backdrop {
     height: 100vh;
-    background-image: url(../media/northern-lights.jpg); 
+    background-image: url(../media/northern-lights-2.jpg); 
     /*By pixabay content liscense. Image copied from:
-    https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
+    https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
+    */
 }
 .page1-h1 {
     margin-top: 0;
