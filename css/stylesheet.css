@@ -1,6 +1,7 @@
 body, nav {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth
 }
 /* Index */
 .nav-container {
@@ -26,8 +27,8 @@ li {
     font-size: 30px;
 }
 
-.dropdown-button:checked .list-container {
-    background-color: red;
+#menu-toggle:checked ~ ul li{
+    background-color: yellow;
 
 }
 input {
@@ -60,7 +61,7 @@ color:red;
     .list-container {
         position: absolute;
         height: 200px;
-        left: 0px;
+        left: -200px;
         top: 75px;
         width: 200px;
         color: gold;
