@@ -55,7 +55,7 @@ input {
 
 @media (min-width: 1250px) { /*Normal*/
     ul {
-color:rgb(6, 25, 170)
+color:rgb(230, 197, 147);
     }
     #menu-toggle-container {
         display: none;
@@ -83,13 +83,6 @@ color:rgb(6, 25, 170)
 /* END Common Nav bar */
 
 /* START Index */
-
-
-
-.main-container {
-    display: grid;
-    
-}
 
 .introduction-section, .indexIntro{    
     display: grid;
@@ -202,8 +195,7 @@ color:rgb(6, 25, 170)
 
 /* Topical */
 .topical-introducion {
-    display: grid;
-    background-color: rgb(104, 104, 255);
+    background-color: rgb(104, 240, 255);
     height: 300px;
     text-align: center;
     color: white;
@@ -222,53 +214,6 @@ color:rgb(6, 25, 170)
 
 .topical-content {
     display: grid;
-    background-color: #ffffffef;
-    color: rgb(0, 0, 0);
-    
-}
-
-.topical-content-diversity {
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 5%;
-}
-
-.topical-content-complex-problems {
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.topical-content-favors-working-in-a-group{
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.topical-content-ctritical-thinking{
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.topical-content-handling-group-conflict{
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
-}
-
-.topical-content-more-information{
-    align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
 }
 
 
