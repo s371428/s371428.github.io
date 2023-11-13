@@ -55,7 +55,7 @@ input {
 
 @media (min-width: 1250px) { /*Normal*/
     ul {
-color:rgb(230, 197, 147);
+color:rgb(6, 25, 170)
     }
     #menu-toggle-container {
         display: none;
@@ -258,6 +258,13 @@ color:rgb(230, 197, 147);
 
 .topical-content-handling-group-conflict{
     display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.topical-content-more-information{
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
