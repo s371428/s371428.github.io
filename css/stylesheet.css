@@ -231,6 +231,10 @@ input {
 
 /* Topical */
 /**/ 
+.topical-main{
+    display: grid;
+}
+/**/ 
 .topical-introducion {
     background-color: rgb(117, 104, 255);
     height: 400px;
@@ -250,7 +254,6 @@ input {
 }
 /**/ 
 .topical-content {
-    display: grid;
     flex-wrap: wrap;
     padding-left: 5%; 
     padding-right: 5%; 
