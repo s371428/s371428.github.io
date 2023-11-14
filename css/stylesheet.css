@@ -249,6 +249,35 @@ input {
 /**/ 
 .topical-content {
     display: grid;
+    flex-wrap: wrap;
+    padding-left: 5%; 
+    padding-right: 5%; 
+}
+
+/**/
+.topical-content-diversity{
+    display: flex;
+    padding-top: 10%;
+}
+
+.topical-content-complex-problems{
+    display: flex;
+}
+
+.topical-content-favors-working-in-a-group{
+    display: flex;
+}
+
+.topical-content-ctritical-thinking{
+    display: flex;
+}
+
+.topical-content-handling-group-conflict{
+    display: flex;
+}
+
+.topical-content-more-information{
+    padding-bottom: 10%;
 }
 
 
