@@ -103,7 +103,9 @@ input {
 /* END Common Nav bar */
 
 
+.main-container {
 
+}
 
 
 /* START Index */
@@ -176,6 +178,7 @@ input {
 }
 /**/ 
 .accessability-backdrop {
+
     height: 100vh;
     background-image: url(../media/northern-lights.jpg); 
     /*By pixabay content liscense. Image copied from:
@@ -203,6 +206,7 @@ input {
 }
 /**/ 
 .further-text {  
+
     height: auto;  
     grid-row-start: 2;    
     padding-left: 15%; 
@@ -231,6 +235,15 @@ input {
 
 /* Topical */
 /**/
+.topical-backdrop {
+
+    height: 100vh;
+    background-image: url(../media/northern-lights-2.jpg); 
+    /*By pixabay content liscense. Image copied from:
+    https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
+    */
+}
+
 .topical-content-diversity{
     display: flex;
     padding-top: 10%;
@@ -263,6 +276,7 @@ input {
 
 /* Page 1 */
 .page1-backdrop {
+
     height: 100vh;
     background-image: url(../media/northern-lights-2.jpg); 
     /*By pixabay content liscense. Image copied from:
