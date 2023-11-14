@@ -21,14 +21,14 @@ grid-template-rows: none;
 
 /*Selects all links inside nav*/
 nav a {
-    color:#000000;
+    color:white;
     text-decoration: none;
 }
 /*List definition within nav*/
 .list-container {
     margin: 0;
     height: 75px;
-    background-color:#ffd500;
+    /*background-color:#ffd500;*/
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
@@ -36,12 +36,14 @@ nav a {
     user-select: none;
     list-style-type: none;
     padding-right: 12%;
+    
 }
 /*List elements within nav*/
 .nav-container li {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 30px;
+    
 }
 
 #menu-toggle:checked ~ ul{
