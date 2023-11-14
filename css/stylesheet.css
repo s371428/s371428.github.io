@@ -230,35 +230,6 @@ input {
 
 
 /* Topical */
-/**/ 
-.topical-main{
-    display: grid;
-}
-/**/ 
-.topical-introducion {
-    background-color: rgb(117, 104, 255);
-    height: 400px;
-    text-align: center;
-    color: white;
-}
-/**/ 
-.topical-introducion h1{
-    font-size: 36px;
-    padding-top: 7%;
-}
-/**/ 
-.topical-introducion p{
-    margin-left: 400px;
-    margin-right: 400px;
-    line-height: 23px;
-}
-/**/ 
-.topical-content {
-    flex-wrap: wrap;
-    padding-left: 5%; 
-    padding-right: 5%; 
-}
-
 /**/
 .topical-content-diversity{
     display: flex;
