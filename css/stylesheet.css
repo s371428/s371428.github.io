@@ -142,7 +142,7 @@ input {
 }
 /**/ 
 .introduction-section{
-    background-color: #000000ef;
+    background-color: rgb(16,16,16);
     color: white;
     text-shadow: 1px 1px 4px #000;
     font-size: 20px;
@@ -204,7 +204,7 @@ input {
     color: white;
     font-size: 1.5em;
     line-height: 1.5em;
-    background-color: rgb(16, 16, 16);    
+    background-color: rgba(16, 16, 16, 0.838);    
 }
 /**/ 
 .accessability-h1 {
@@ -244,7 +244,7 @@ input {
 .topical-backdrop {
 
     height: 100vh;
-    background-image: url(../media/northern-lights-2.jpg); 
+    background-image: url(../media/oslomet-outside-p35.jpg);
     /*By pixabay content liscense. Image copied from:
     https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
     */
