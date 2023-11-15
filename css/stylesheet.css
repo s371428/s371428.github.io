@@ -21,17 +21,14 @@ grid-template-rows: none;
 
 /*Selects all links inside nav*/
 nav a {
-    color:black;
+    color:white;
     font-size: 20px;
-   
-
     text-decoration: none;
 }
 /*List definition within nav*/
 .list-container {
     margin: 0;
     height: 30px;
-    /*background-color:#ffd500;*/
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
@@ -39,7 +36,6 @@ nav a {
     user-select: none;
     list-style-type: none;
     padding-right: 12%;
-    
 }
 /*List elements within nav*/
 .nav-container li {
@@ -62,6 +58,7 @@ input {
 }
 /**/
 #menu-toggle-container {
+    z-index: 50;
     top: 25px;
     left: 25px;
     position: absolute;
@@ -81,11 +78,14 @@ input {
         position: absolute;
         height: min-content;
         left: -500px;
-        top: 75px;
+        padding: 5px;
+        padding-top: 75px;
+        background-color: rgba(16, 16, 16, 0.5);
         width: min-content;
+        align-items:start;
         color: gold;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }   
     .list-container li:hover {
         transform: scale(1.2);
@@ -274,6 +274,19 @@ input {
 .topical-content-more-information{
     padding-bottom: 10%;
 }
+
+.left-image{
+    height: 300px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.right-image{
+    height: 300px;
+    padding: 20px;
+    padding-right: 0px;
+}
+
 
 
 
