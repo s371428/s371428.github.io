@@ -109,9 +109,6 @@ input {
 /* END Common Nav bar */
 
 
-.main-container {
-
-}
 
 
 /* START Index */
@@ -210,7 +207,9 @@ input {
 }
 /**/ 
 .further-text {  
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: auto;  
     grid-row-start: 2;    
     padding-left: 15%; 
@@ -220,6 +219,12 @@ input {
     padding-bottom: 5%;  
     color: white; 
 }
+/**/
+.text-child {
+    width: 60%;
+}
+
+
 /**/ 
 .decoration-archer {    
     filter: invert(1);
@@ -248,27 +253,6 @@ input {
     /*By pixabay content liscense. Image copied from:
     https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
     */
-}
-
-.topical-content-diversity{
-    display: flex;
-    padding-top: 10%;
-}
-
-.topical-content-complex-problems{
-    display: flex;
-}
-
-.topical-content-favors-working-in-a-group{
-    display: flex;
-}
-
-.topical-content-ctritical-thinking{
-    display: flex;
-}
-
-.topical-content-handling-group-conflict{
-    display: flex;
 }
 
 .topical-content-more-information{
