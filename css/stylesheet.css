@@ -174,14 +174,14 @@ input {
 
 
 
-/* Accessability */
+/* Accessibility */
 /**/ 
 .accessability-introduction, .accessability-text {
     justify-content: center;
     align-items: center;  
 }
 /**/ 
-.accessability-backdrop {
+.accessibility-backdrop {
 
     height: 100vh;
     background-image: url(../media/northern-lights.jpg); 
@@ -205,7 +205,7 @@ input {
     background-color: rgba(16, 16, 16, 0.838);    
 }
 /**/ 
-.accessability-h1 {
+.accessibility-h1 {
     margin-top: 0;
 }
 /**/ 
