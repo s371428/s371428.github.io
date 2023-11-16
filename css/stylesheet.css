@@ -232,6 +232,20 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
     color: #00FFEF;
 }
 
+.footer-bottom-bar{
+    background: grey;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50;
+}
+
+.footer-bottom-bar p{
+    color: #00FFEF;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+
 
 
 
