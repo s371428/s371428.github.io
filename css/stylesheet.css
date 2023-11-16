@@ -329,9 +329,27 @@ look good.*/
     https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
     */
 }
+
+/**/
 .topical-content-more-information{
     padding-bottom: 10%;
 }
+
+.topical-content-more-information li{
+    list-style-type: square;
+    color: #00FFEF;
+    padding: 7px;
+}
+
+.topical-content-more-information a{
+    text-decoration: none;
+    color: #00FFEF;
+}
+
+.topical-content-more-information a:hover{
+    color: white;
+}
+
 
 
 
