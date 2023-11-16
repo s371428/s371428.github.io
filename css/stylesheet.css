@@ -214,27 +214,13 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
 }
 
 .footer-content-list li{
-    width: auto;
-    text-align: center;
-    list-style-type: none;
-    padding: 7px;
-    position: relative;
-}
-
-.footer-content-list li::before{
-    content: '';
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 100%;
     width: 0;
-    height: 2px;
-    background: #f00000;
-    transition-duration: .5s;
-}
-
-.footer-content.list li:hover::before{
-    width: 70px;
+    text-align: center;
+    list-style-type: square;
+    color: #00FFEF;
+    padding: 7px;
+    position: center;
+    margin-left: 200px;
 }
 
 .footer-content a{
