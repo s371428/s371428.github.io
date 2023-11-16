@@ -200,7 +200,7 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
 
 /**/ 
 .index-backdrop {
-    background-image: url(../media/pexels-terracedfarm.jpg);
+    background-image: url(../media/Oslomet_facade2_edited.webp);
     background-size:cover;
     object-fit: fill;
     height: 100vh;    
@@ -233,7 +233,7 @@ look good.*/
     background-size:cover;
     object-fit: fill;
     height: 100vh;
-    background-image: url(../media/northern-lights.jpg); 
+    background-image: url(../media/Oslomet_entrance.webp); 
     /*By pixabay content liscense. Image copied from:
     https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
 }
@@ -254,7 +254,7 @@ look good.*/
     background-size:cover;
     object-fit: fill;
     height: 100vh;    
-    background-image: url(../media/IMG_9434.webp);
+    background-image: url(../media/Oslomet_Train.webp);
     /*By pixabay content liscense. Image copied from:
     https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
     */
