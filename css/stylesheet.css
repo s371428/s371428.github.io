@@ -263,7 +263,14 @@ h2{
     background-image: url(../media/Oslomet_facade2_edited.webp);
     background-size:cover;
     object-fit: fill;
-    height: 100vh;    
+    height: 100vh;
+}
+
+.index-backdrop-overlay{
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(16, 16, 16, 0.5);
 }
 /**/
 .index-backdrop h1{
