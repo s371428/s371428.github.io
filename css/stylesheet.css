@@ -147,6 +147,12 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
 .intro-standard h1 {
     margin-top: 0;
 }
+
+/*Changes the colour of all h2 elements within the whole page.*/
+h2{
+    color: #00FFEF;
+
+}
 /*Creates the layout for each page's "main" content to ble placed within, after the introduction.*/ 
 .text-standard {  
     display: flex;
@@ -233,7 +239,7 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
 }
 
 .footer-bottom-bar{
-    background: grey;
+    background: rgb(15, 15, 15);
     text-align: center;
     padding: 10px 0;
     margin-top: 50;
