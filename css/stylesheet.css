@@ -176,12 +176,18 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
 }
 /**/
 .footer-container {
-    padding-top: 1px;
-    width: 100%;
+    padding-top: 50px;
+    margin: auto;
     height: 300px;
     color: white;
     background-color: #000000;
     display: flex;
+    justify-content: center;
+}
+
+/**/
+.footer-content{
+    width: 33.3%;
 }
 
 /**/
@@ -189,8 +195,56 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
     font-size: 20px;
     margin-bottom: 15px;
     text-align: center;
+    color: #00FFEF;
 }
 
+/**/
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+
+.footer-content ul{
+    text-align: center;
+}
+
+.footer-content-list{
+    padding: 0;
+}
+
+.footer-content-list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.footer-content-list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f00000;
+    transition-duration: .5s;
+}
+
+.footer-content.list li:hover::before{
+    width: 70px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content a:hover{
+    color: #00FFEF;
+}
 
 
 
