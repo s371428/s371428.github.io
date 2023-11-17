@@ -172,6 +172,12 @@ h2{
     color: white; 
     text-shadow: 1px 1px 4px #000;
 }
+
+/**/
+.text-standard a{
+    text-decoration: none;
+    color: #00FFEF;
+}
 /**/
 .left-image{
     height: 300px;
