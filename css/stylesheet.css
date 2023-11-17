@@ -40,6 +40,7 @@ nav a:hover{
     user-select: none;
     list-style-type: none;
     padding-right: 12%;
+    
 }
 /*List elements within nav*/
 .nav-container li {
@@ -47,7 +48,7 @@ nav a:hover{
     margin-right: 10px;
     
 }
-
+/**/
 #menu-toggle:checked ~ ul{
    left: 0px;
 }
@@ -65,13 +66,13 @@ input {
     z-index: 50;
     top: 25px;
     left: 25px;
-    position: absolute;
+    position: fixed;
     /*background-color: rgb(230, 197, 147);*/
 }
 /**/
 .menu-toggle-icon {
     width: 36px;
-    height: 28px;
+    height: 28px;    
     background-size: cover;
     display: block;
     background-image: url(../media/menu-icon.svg);
@@ -84,7 +85,7 @@ input {
     /**/
     .list-container {
         transition: linear 100ms;
-        position: absolute;
+        position: fixed;
         height: min-content;
         left: -500px;
         padding: 5px;
@@ -95,6 +96,7 @@ input {
         color: gold;
         flex-direction: column;
         flex-wrap: wrap;
+        
     }  
     /**/ 
     .list-container li:hover {
@@ -184,6 +186,7 @@ h2{
     padding: 20px;
     padding-right: 0px;
 }
+
 /**/
 .footer-container {
     padding-top: 50px;
@@ -194,12 +197,10 @@ h2{
     display: flex;
     justify-content: center;
 }
-
 /**/
 .footer-content{
     width: 33.3%;
 }
-
 /**/
 .footer-content h3{
     font-size: 20px;
@@ -207,22 +208,21 @@ h2{
     text-align: center;
     color: #00FFEF;
 }
-
 /**/
 .footer-content p{
     width: 190px;
     margin: auto;
     padding: 7px;
 }
-
+/**/
 .footer-content ul{
     text-align: center;
 }
-
+/**/
 .footer-content-list{
     padding: 0;
 }
-
+/**/
 .footer-content-list li{
     width: 0;
     text-align: center;
@@ -232,23 +232,23 @@ h2{
     position: center;
     margin-left: 200px;
 }
-
+/**/
 .footer-content a{
     text-decoration: none;
     color: white;
 }
-
+/**/
 .footer-content a:hover{
     color: #00FFEF;
 }
-
+/**/
 .footer-bottom-bar{
     background: rgb(15, 15, 15);
     text-align: center;
     padding: 10px 0;
     margin-top: 50;
 }
-
+/**/
 .footer-bottom-bar p{
     color: #00FFEF;
     margin: 0;
@@ -269,9 +269,9 @@ h2{
     object-fit: fill;
     height: 100vh;
 }
-
+/**/
 .index-backdrop-overlay{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color:rgba(16, 16, 16, 0.60);
 }
