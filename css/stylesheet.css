@@ -21,6 +21,7 @@ grid-template-rows: none;
 
 /*Selects all links inside nav*/
 nav a {
+    white-space: nowrap;
     color:white;
     font-size: 20px;
     text-decoration: none;
@@ -76,7 +77,9 @@ input {
     background-image: url(/media/menu-icon.svg);
 }
 /* END Common Nav bar */
-
+main  p {
+    word-break: break-all;
+}
 
 
 @media (max-width: 1250px) { /*Phone or device with smaller screen than the usual*/
@@ -219,7 +222,7 @@ h2{
 .footer-container {
     padding-top: 50px;
     margin: auto;
-    height: 300px;
+    height: 30%;
     color: white;
     background-color: #000000;
     display: flex;
@@ -238,9 +241,12 @@ h2{
 }
 /**/
 .footer-content p{
-    width: 190px;
+    width: 100%;
+    word-wrap: break-word;
+    text-align: center;
     margin: auto;
-    padding: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 /**/
 .footer-content ul{
@@ -252,13 +258,14 @@ h2{
 }
 /**/
 .footer-content-list li{
-    width: 0;
+    width: 30%;
     text-align: center;
     list-style-type: square;
     color: #00FFEF;
-    padding: 7px;
-    position: center;
-    margin-left: 200px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /**/
 .footer-content a{
