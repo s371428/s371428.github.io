@@ -362,10 +362,12 @@ look good.*/
 /* Page 1 */
 /*Background image behind the introductionary part of the page.*/
 .page1-backdrop {
-    height: 100vh;
-    background-image: url(../media/northern-lights-2.jpg); 
-    /*By pixabay content liscense. Image copied from:
-    https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
+    background-size: cover;
+    height: 125vh;
+    object-fit: fill;
+    background-image: url(../media/Oslometlogo.webp); 
+    /*By uniform_oslo. Image copied from:
+    https://uniform.no/prosjekter/oslomet-med-ny-brukervennlig-og-kraftig-profil/
     */
 }
 
