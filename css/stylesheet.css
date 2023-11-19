@@ -383,6 +383,9 @@ look good.*/
     height: 75px;
     background: linear-gradient(to right,#1703fc, #6203fc 75%);
     grid-template-rows: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
 }
 /**/ 
 .body-page2{
@@ -406,6 +409,10 @@ look good.*/
     width: 1300px;
     margin: auto;
     height: 75vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 /*Title page2*/ 
 .h1-page2{
@@ -425,4 +432,7 @@ look good.*/
     height: 100px;
     color: white;
     background: linear-gradient(to right,#1703fc, #6203fc 75%);
+    bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
