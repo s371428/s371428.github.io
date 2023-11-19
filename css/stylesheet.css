@@ -427,12 +427,57 @@ look good.*/
 
 /**/ 
 .footer-container-page2{
+    display: flex;
     padding-top: 1px;
     width: 100%;
-    height: 100px;
     color: white;
     background: linear-gradient(to right,#1703fc, #6203fc 75%);
-    bottom: 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    height: 400px;
+}
+
+/**/
+.footer-container-page2 h3{
+    text-align: center;
+
+}
+
+.footer-container-page2 p{
+    text-align: center;
+
+}
+
+.footer-container-page2 a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-container-page2 a:hover{
+    color: rgb(194, 193, 193);
+
+}
+
+/**/
+.footer-content1-page2{
+    border: 1px solid white;
+    /*background-color: white;*/
+    width: 200px;
+    margin: auto;
+}
+
+.footer-content2-page2{
+    border: 1px solid white;
+    /*background-color: white;*/
+    width: 200px;
+    margin: auto;
+}
+
+.footer-content3-page2{
+    border: 1px solid white;
+    /*background-color: white;*/
+    width: 200px;
+    margin: auto;
 }
