@@ -73,7 +73,7 @@ input {
     height: 28px;    
     background-size: cover;
     display: block;
-    background-image: url(../media/menu-icon.svg);
+    background-image: url(/media/menu-icon.svg);
 }
 /* END Common Nav bar */
 
