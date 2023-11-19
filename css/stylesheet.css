@@ -48,7 +48,7 @@ nav a:hover{
     margin-right: 10px;    
 }
 /**/
-#menu-toggle:checked ~ ul{
+#menu-toggle:checked ~ .list-container{
    left: 0px;
 }
 /*Colorchange for menu dropdown*/
@@ -96,6 +96,30 @@ input {
         flex-wrap: wrap;
         
     }  
+    img {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+    .list-container-page2 {
+        transition: linear 100ms;
+        position: fixed;
+        height: min-content;
+        transform:translateX(-50%);
+        left: 50%;
+        padding: 5px;
+        margin: 0px;
+        background-color: rgba(16, 16, 16, 0.5);
+        width: max-content;
+        align-items:start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .list-container-page2 a{
+        font-size: 5vw !important;
+    }
     /**/ 
     .list-container li:hover {
         transform: scale(1.2);
@@ -385,8 +409,25 @@ look good.*/
     grid-template-rows: none;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    
 }
+.nav-container-page2 a {
+    font-size: 30px;
+    -webkit-text-stroke: 0.05vw white;
+    color: rgba(0, 0, 0, 0);
+}
+
+.nav-container-page2 a:hover{
+    animation-name: ShiftColor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes ShiftColor {
+    0%  {color: orange;}
+    25%  {color: purple;}
+    50%  {color: orange;}
+    100%  {color: purple;}
+  }
 /**/ 
 .body-page2{
     background: linear-gradient(to right,#0e0384, #31037b 75%);
@@ -423,6 +464,11 @@ look good.*/
 /**/
 .list-container-page2{
     display: flex;
+}
+.list-container-page2 li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /**/ 
