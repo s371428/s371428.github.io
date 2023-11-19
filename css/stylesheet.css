@@ -396,6 +396,7 @@ look good.*/
     height: 90vh;
     display: flex;
     place-items: center center;
+    color: white;
 }
 
 /**/
@@ -405,8 +406,6 @@ look good.*/
     width: 1300px;
     margin: auto;
     height: 75vh;
-    display: flex;
-    place-items: center center;
 }
 /*Title page2*/ 
 .h1-page2{
