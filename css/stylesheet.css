@@ -378,33 +378,52 @@ look good.*/
 /* Page 2 */
 /**/ 
 .nav-container-page2{
-    padding-top: 1px;
+    display: grid;
     width: 100%;
     height: 75px;
-    background: radial-gradient(#186E5A 12%, #176942 27%, #184A5A);
+    background: linear-gradient(to right,#1703fc, #6203fc 75%);
+    grid-template-rows: none;
 }
 /**/ 
 .body-page2{
-    background-color: #5f5d5d;
+    background: linear-gradient(to right,#0e0384, #31037b 75%);
+    display: inline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/**/ 
+.main-page2{
+    height: 90vh;
+    display: flex;
+    place-items: center center;
+}
+
+/**/
+.main-content-page2{
+    border: 1px solid white;
+    /*background-color: white;*/
+    width: 1300px;
+    margin: auto;
+    height: 75vh;
+    display: flex;
+    place-items: center center;
 }
 /*Title page2*/ 
 .h1-page2{
-    font-family: Georgia, serif;
     font-size: 50px;
     text-align: center;
 
 }
-/**/ 
-.main-page2{
-    display: grid;
-    grid-template-rows: minmax(80vh, 90vh) auto;
-    height: 70vh;
+/**/
+.list-container-page2{
+    display: flex;
 }
+
 /**/ 
 .footer-container-page2{
     padding-top: 1px;
     width: 100%;
-    height: 50px;
+    height: 100px;
     color: white;
-    background-color: #724b4b;
+    background: linear-gradient(to right,#1703fc, #6203fc 75%);
 }
