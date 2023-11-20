@@ -16,12 +16,12 @@
         <header>
             <nav class="nav-container">
                 <input id="menu-toggle" type="checkbox" onclick="console.log('pressed')">
-                <label id="menu-toggle-container" for="menu-toggle">
+                <label id="menu-toggle-container" for="menu-toggle" title="Menu">
                 <div class="menu-toggle-icon"></div>
                 </label>
                 <!--https://oslomet.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e07c0035-72e8-41fd-a7de-b09800a14526-->
                 <ul class="list-container">
-                    <li><a href="/index.html">Index</a></li>
+                    <li><a href="/index.html">Home</a></li>
                     <li><a href="/page1.html">Page 1</a></li>
                     <li><a href="/page2.html">Page 2</a></li>
                     <li><a href="/topical.html">Topical</a></li>                    
@@ -56,7 +56,8 @@
                     <h2>Accessibility Test</h2>
                     <p>The Topical page was run through the automated accessibility test with the use of Wave-test.</p>
                     <p>As the pictures below shows, the test came back with one error, and four alerts. The test was 
-                        conducted while the page was 90% finished, so that the test could give important feedback.</p>                    
+                        conducted while the page was 90% finished, so that the test could give important feedback during 
+                        the development.</p>                    
                 </div>                
                 <img class="right-image" alt="A screenshot of the details of the wave-test. Showing that the 1 error 
                 is due to an empty form label, and the 4 alerts are repetetive alternative texts for images.
@@ -67,8 +68,10 @@
 
                 <div class="text-child">
                     <p>Under the details of the wave-test, we are given the reason behind the one error and four alerts.
-                        The error an empty form label, refering to the dropdown-menu on phone-screens. 
-                    </p>                            
+                        The error comes from an empty form label, refering to the dropdown-menu on phone-screens. Since 
+                        the use of the label tag is not supposed to have visible text in this case, this error can be 
+                        ignored as long as a "title" attribute is used on the tag, so that, if hovered on, it provides 
+                        text if the user should be in need.</p>                            
                     <p>The four alerts refere to the fact that all the pictures on the page have identical alternative
                         descriptions for screen-readers etc. This stems from the fact that the page was lacking it's
                         last finish, and every picture's alt= was filled with a generic filler-text. The test did 
@@ -98,6 +101,8 @@
                     </p>
                     <img class="right-image" alt="Code showing the use of different visuals when using narrow device" 
                     src="/media/eksamen-code-phonescreensize.png">
+                    <img class="right-image" alt="Showcase of the contrast used in the visual style." 
+                    src="/media/eksamen-showcase-contrast.png">
                     <p>Another accessibility feature of our page is the contrast in the visual style. Since anyone can have a 
                         tiresome day, direct sunlight or other impairments, the importance of clean and easy visuals for the 
                         content we want to convey to the user can not be understated. To ensure contrast on our page, we have 
