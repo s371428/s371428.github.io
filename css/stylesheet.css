@@ -455,18 +455,37 @@ look good.*/
     color: white;
 }
 
+.main-page2 h2{
+    color: white;
+}
+
 /**/
 .main-content-page2{
     border: 1px solid white;
     /*background-color: white;*/
     width: 1300px;
     margin: auto;
-    height: 75vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+.main-content-mainsection-page2{
+    display: flex;
+}
+
+.main-content-part-page2{
+    border: 1px solid white;
+    /*background-color: white;*/
+    width: 1300px;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
 /*Title page2*/ 
 .h1-page2{
     font-size: 50px;
