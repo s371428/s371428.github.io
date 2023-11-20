@@ -342,7 +342,7 @@ look good.*/
     background-size:cover;
     object-fit: fill;
     height: 20%;
-    background-image: url(../media/Oslomet_entrance.webp); 
+    background-image: url(/media/Oslomet_entrance.webp); 
     /*By pixabay content liscense. Image copied from:
     https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
 }
@@ -363,7 +363,7 @@ look good.*/
     background-size:cover;
     object-fit: fill;
     height: 20%;
-    background-image: url(../media/Oslomet_Train.webp);
+    background-image: url(/media/Oslomet_Train.webp);
     /*By pixabay content liscense. Image copied from:
     https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
     */
