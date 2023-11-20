@@ -166,7 +166,7 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 7%;
-    padding-bottom: 5%;
+    padding-bottom: 20%;
     margin-left: 10vw;
     margin-right: 10vw;
     width: auto;
@@ -318,9 +318,9 @@ h2{
 .index-backdrop h1{
     text-align: center;
     margin-bottom: 0;
-    padding-bottom: 30px;
+    padding-bottom: 25%;
     margin-top: 0;
-    padding-top: 40vh;
+    padding-top: 25%;
     font-size: 50px;
     color: white;
     text-shadow: 1px 1px 4px #000;
@@ -343,7 +343,6 @@ look good.*/
 .accessibility-backdrop {
     background-size:cover;
     object-fit: fill;
-    height: 20%;
     background-image: url(../media/Oslomet_entrance.webp); 
     /*Photographer: Mewan André Mohammad*/
 }
@@ -363,7 +362,6 @@ look good.*/
 .topical-backdrop {
     background-size:cover;
     object-fit: fill;
-    height: 20%;
     background-image: url(../media/Oslomet_Train.webp);
     /*Photographer: Mewan André Mohammad*/
 }
