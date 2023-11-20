@@ -97,7 +97,7 @@ input {
         flex-wrap: wrap;
         
     }  
-    img {
+    img:not(.body-page2 img) {
         padding: 0px !important;
         margin: 0px !important;
         width: 50% !important;
@@ -106,7 +106,7 @@ input {
     .text-child {
         width: 100% !important;
     }
-    img:hover {
+    img:hover:not(.body-page2 img) {
         transform: scale(1.1);
     }
     .list-container-page2 {
@@ -250,6 +250,16 @@ h2{
     margin: auto;
     padding-top: 7px;
     padding-bottom: 7px;
+}
+/*Selects all a within footer-content, but not those that have li as a container/parent*/
+.footer-content a:not( li>a), .footer-content1-page2 a:not( p>a) {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    display: block;
 }
 /**/
 .footer-content ul{
@@ -456,8 +466,7 @@ look good.*/
 .main-content-page2{
     border: 1px solid white;
     /*background-color: white;*/
-    width: 1300px;
-    margin: auto;
+    width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -492,15 +501,10 @@ look good.*/
     padding: 10px;
 }
 
-.main-content-part-page2-overlay{
-    background: linear-gradient(to top, rgba(16, 16, 16, 0.60), rgba(16, 16, 16, 0) 75%);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
 
 .main-content-image-page2{
     width: 100%;
-    height: 200px;
+    height: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size:cover;
