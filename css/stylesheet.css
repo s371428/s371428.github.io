@@ -77,9 +77,6 @@ input {
     background-image: url(/media/menu-icon.svg);
 }
 /* END Common Nav bar */
-main  p {
-    word-break: break-all;
-}
 
 
 @media (max-width: 1250px) { /*Phone or device with smaller screen than the usual*/
@@ -102,6 +99,11 @@ main  p {
     img {
         padding: 0px !important;
         margin: 0px !important;
+        width: 50% !important;
+        height:auto !important;
+    }
+    .text-child {
+        width: 100% !important;
     }
     img:hover {
         transform: scale(1.1);
