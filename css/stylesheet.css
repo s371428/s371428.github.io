@@ -450,12 +450,12 @@ look good.*/
 .main-page2{
     height: 90vh;
     display: flex;
-    place-items: center center;
     color: white;
 }
 
 .main-page2 h2{
-    color: white;
+    color: rgb(255, 255, 255);
+    position: absolute;
 }
 
 /**/
@@ -468,6 +468,7 @@ look good.*/
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    padding: 20px;
 }
 
 .main-content-mainsection-page2{
@@ -475,14 +476,27 @@ look good.*/
 }
 
 .main-content-part-page2{
+    display: grid;
     border: 1px solid white;
     /*background-color: white;*/
-    width: 1300px;
+    width: 400px;
     margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.main-content-part-page2 h2{
+    padding-left: 115px;
+    padding-top: 75px;
+}
+
+.main-content-image-page2{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 /*Title page2*/ 
