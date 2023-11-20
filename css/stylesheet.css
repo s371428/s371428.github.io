@@ -74,7 +74,8 @@ input {
     height: 28px;    
     background-size: cover;
     display: block;
-    background-image: url(/media/menu-icon.svg);
+    background-image: url(/media/menu-icon-2.svg);
+    /*Creator: Ali Muhammed Muhsin Al-Rubaye*/
 }
 /* END Common Nav bar */
 
@@ -302,19 +303,22 @@ h2{
 /**/ 
 .index-backdrop {
     background-image: url(../media/Oslomet_facade2_edited.webp);
+    /*Photographer: Mewan André Mohammad*/
     background-size:cover;
     object-fit: fill;
-    height: 100vh;
+    height: 100%;
 }
 /**/
 .index-backdrop-overlay{
     width: 100%;
-    height: 100vh;
+    height: 20%;
     background-color:rgba(16, 16, 16, 0.60);
 }
 /**/
 .index-backdrop h1{
     text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 30px;
     margin-top: 0;
     padding-top: 40vh;
     font-size: 50px;
@@ -339,10 +343,9 @@ look good.*/
 .accessibility-backdrop {
     background-size:cover;
     object-fit: fill;
-    height: 100vh;
+    height: 20%;
     background-image: url(../media/Oslomet_entrance.webp); 
-    /*By pixabay content liscense. Image copied from:
-    https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
+    /*Photographer: Mewan André Mohammad*/
 }
 /**/ 
 .decoration-archer {    
@@ -360,11 +363,9 @@ look good.*/
 .topical-backdrop {
     background-size:cover;
     object-fit: fill;
-    height: 100vh;    
+    height: 20%;
     background-image: url(../media/Oslomet_Train.webp);
-    /*By pixabay content liscense. Image copied from:
-    https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
-    */
+    /*Photographer: Mewan André Mohammad*/
 }
 
 /**/
@@ -396,7 +397,7 @@ look good.*/
 /*Background image behind the introductionary part of the page.*/
 .page1-backdrop {
     background-size: cover;
-    height: 125vh;
+    height: 20%;
     object-fit: fill;
     background-image: url(../media/Oslometlogo.webp); 
     /*By uniform_oslo. Image copied from:
