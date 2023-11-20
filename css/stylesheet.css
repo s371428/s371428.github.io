@@ -74,7 +74,8 @@ input {
     height: 28px;    
     background-size: cover;
     display: block;
-    background-image: url(/media/menu-icon.svg);
+    background-image: url(/media/menu-icon-2.svg);
+    /*Creator: Ali Muhammed Muhsin Al-Rubaye*/
 }
 /* END Common Nav bar */
 
@@ -302,6 +303,7 @@ h2{
 /**/ 
 .index-backdrop {
     background-image: url(../media/Oslomet_facade2_edited.webp);
+    /*Photographer: Mewan André Mohammad*/
     background-size:cover;
     object-fit: fill;
     height: 100%;
@@ -343,8 +345,7 @@ look good.*/
     object-fit: fill;
     height: 20%;
     background-image: url(../media/Oslomet_entrance.webp); 
-    /*By pixabay content liscense. Image copied from:
-    https://pixabay.com/photos/northern-lights-sky-three-2855662/*/
+    /*Photographer: Mewan André Mohammad*/
 }
 /**/ 
 .decoration-archer {    
@@ -364,9 +365,7 @@ look good.*/
     object-fit: fill;
     height: 20%;
     background-image: url(../media/Oslomet_Train.webp);
-    /*By pixabay content liscense. Image copied from:
-    https://pixabay.com/photos/northern-lights-aurora-borealis-1250561/
-    */
+    /*Photographer: Mewan André Mohammad*/
 }
 
 /**/
