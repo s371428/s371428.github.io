@@ -17,19 +17,28 @@ height: 75px;
 position: absolute;
 grid-template-rows: none;
 }
-
-/*Selects all links inside nav*/
-nav a {
-    white-space: nowrap;
-    color:white;
-    font-size: 20px;
-    text-decoration: none;
+/**/
+input {
+    display: none;
+    opacity: 0;
 }
-/*makes the links within the turn turn to the chosen colour*/
-nav a:hover{
-    color:#00FFEF;
-}
-/*List definition within nav*/
+ /**/
+ #menu-toggle-container {
+     z-index: 50;
+     top: 25px;
+     left: 25px;
+     position: fixed;
+ }
+ /**/
+ .menu-toggle-icon {
+     width: 36px;
+     height: 28px;    
+     background-size: cover;
+     display: block;
+     background-image: url(/media/menu-icon-2.svg);
+     /*Creator: Private member of the team*/
+ }
+ /*List definition within nav*/
 .list-container {
     margin: 0;
     height: 30px;
@@ -42,43 +51,34 @@ nav a:hover{
     padding-right: 12%;
     
 }
+/**/
+#menu-toggle:checked ~ .list-container{
+    left: 0px;
+ }
+ /*Colorchange for menu dropdown*/
+ .dropdown-button:checked .list-container {
+     background-color: rgb(230, 197, 147);
+ } 
 /*List elements within nav*/
 .nav-container li {
     margin-left: 10px;
     margin-right: 10px;    
 }
-/**/
-#menu-toggle:checked ~ .list-container{
-   left: 0px;
+/*Selects all links inside nav*/
+nav a {
+    white-space: nowrap;
+    color:white;
+    font-size: 1.5em;
+    text-decoration: none;
 }
-/*Colorchange for menu dropdown*/
-.dropdown-button:checked .list-container {
-    background-color: rgb(230, 197, 147);
+/*makes the links within the turn turn to the chosen colour*/
+nav a:hover{
+    color:#00FFEF;
 }
-/**/
-input {
-    display: none;
-    opacity: 0;
-}
-/**/
-#menu-toggle-container {
-    z-index: 50;
-    top: 25px;
-    left: 25px;
-    position: fixed;
-}
-/**/
-.menu-toggle-icon {
-    width: 36px;
-    height: 28px;    
-    background-size: cover;
-    display: block;
-    background-image: url(/media/menu-icon-2.svg);
-    /*Creator: Private member of the team*/
-}
+
 /* END Common Nav bar */
 
-
+/*START SCREEN RESPONSIVENESS*/
 @media (max-width: 1250px) { /*Phone or device with smaller screen than the usual*/
     /*Common nav bar. Restructured to a box, which is pushed left out of view while button unchecked.*/
     .list-container {
@@ -147,6 +147,10 @@ input {
     }    
 }
 @media (min-width: 1250px) { /*Wide-screen*/
+    /*Size of text-containers in wide screen*/
+    .text-child {
+       width: 60%;
+    }  
     /*???Why???*/
     nav ul {
         color:rgb(230, 197, 147);
@@ -154,19 +158,14 @@ input {
     /*Hides the toggle-menu icon in wide screen*/
     #menu-toggle-container {
         display: none;
-    }
-
-    /*Size of text-containers in wide screen*/
-    .text-child {
-       width: 60%;
-    }    
+    }  
 }
+/*END SCREEN RESPONSIVENESS*/
 
 
 
 
-
-/*Style-classes for standardized segments*/
+/*START STANDARDIZED SEGMENTS*/
 
 /*Transparent gray overlay on introductory text for each page (other than index and page 2).
  Overlays on top of page's "backdrop" (background-images).*/ 
@@ -190,7 +189,6 @@ input {
 .intro-standard h1 {
     margin-top: 0;
 }
-
 /*Changes the colour of all h2 elements within the whole page.*/
 h2 {
     color: #00FFEF;
@@ -210,7 +208,6 @@ h2 {
     color: white; 
     text-shadow: 1px 1px 4px #000;
 }
-
 /*Color of links in the content-part of the pages.*/
 .text-standard a{
     text-decoration: none;
@@ -245,7 +242,7 @@ h2 {
 }
 /*h3 styling for footer-content*/
 .footer-content h3{
-    font-size: 20px;
+    font-size: 1.5em;
     margin-bottom: 15px;
     text-align: center;
     color: #00FFEF;
@@ -308,10 +305,11 @@ h2 {
 .footer-bottom-bar p{
     color: #00FFEF;
     margin: 0;
-    font-size: 16px;
+    font-size: 1em;
     padding: 7px;
 }
 
+/*END STANDARDIZED SEGMENTS*/
 
 
 
@@ -339,7 +337,7 @@ h2 {
     padding-bottom: 25%;
     margin-top: 0;
     padding-top: 25%;
-    font-size: 50px;
+    font-size: 3.2em;
     color: white;
     text-shadow: 1px 1px 4px #000;
 }
@@ -348,7 +346,7 @@ look good.*/
 .index-text {
     padding-left: 25%;
     padding-right: 25%;
-    font-size: 20px;
+    font-size: 1.3em;
 } 
 /* END Index */
 
@@ -356,7 +354,7 @@ look good.*/
 
 
 
-/* Accessibility */
+/* START Accessibility */
 /*Background image behind the introductionary part of the page.*/ 
 .accessibility-backdrop {
     background-size:cover;
@@ -370,7 +368,7 @@ look good.*/
 
 
 
-/* Topical */
+/*START Topical */
 /*Background image behind the introductionary part of the page.*/
 .topical-backdrop {
     background-size:cover;
@@ -397,13 +395,13 @@ look good.*/
 .topical-content-more-information a:hover{
     color: white;
 }
+/*END Topical*/
 
 
 
 
 
-
-/* Page 1 */
+/*START Page 1 */
 /*Background image behind the introductionary part of the page.*/
 .page1-backdrop {
     background-size: cover;
@@ -436,7 +434,7 @@ look good.*/
 
 /*Hyperlink font style and size*/
 .nav-container-page2 a {
-    font-size: 30px;
+    font-size: 2em;
     -webkit-text-stroke: 0.05vw white;
     color: rgba(0, 0, 0, 0);
 }
@@ -505,7 +503,7 @@ look good.*/
 
 /*Position and style of each sub-headings(h2)*/
 .main-content-part-page2 h2{
-    font-size: 40px;
+    font-size: 2.5em;
     position: absolute;
     left: 50%;
     top: 15%;
@@ -532,24 +530,24 @@ look good.*/
 }
 
 /*Main title page2*/ 
-.h1-page2{
-    font-size: 50px;
+.main-title-page2{
+    font-size: 3.2em;
     text-align: center;
     text-shadow: 1px 1px 4px #000;
 }
-/**/
+/*Creating the hyperlinks of the navigation bar on page2*/
 .list-container-page2{
     display: flex;
 }
 
-/**/
+/*Style and position of text/hyperlinks in navigation bar page2*/
 .list-container-page2 li{
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-/**/ 
+/*Creating footer box, displayed as flex*/ 
 .footer-container-page2{
     display: flex;
     padding-top: 1px;
@@ -561,33 +559,36 @@ look good.*/
     height: 400px;
 }
 
-/**/
+/*position headings in footer*/
 .footer-container-page2 h3{
     text-align: center;
 
 }
 
-/**/
+/*position paragraph in footer*/
 .footer-container-page2 p{
     text-align: center;
+    
 
 }
 
-/**/
+/*Style and position hyperlinks in footer*/
 .footer-container-page2 a{
     text-align: center;
     text-decoration: none;
     color: white;
+    display: block;
+    padding: 10px;
 
 }
 
-/**/
+/*Changes the colour of hyperlinks when the cursor hovers the hyperlinks*/
 .footer-container-page2 a:hover{
     color: rgb(194, 193, 193);
 
 }
 
-/**/
+/*Creating small section boxes inside footer section*/
 .footer-content-page2{
     border: 1px solid white;
     width: 225px;
@@ -596,4 +597,19 @@ look good.*/
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+/*Creating bottom bar section*/
+.footer-bottom-bar-page2{
+    background: linear-gradient(to top,#1703fc, #6203fc);;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50;
+}
+/*bottom bar's content coloring and position page2.*/
+.footer-bottom-bar-page2 p{
+    color: #ffffff;
+    margin: 0;
+    font-size: 1em;
+    padding: 7px;
 }
