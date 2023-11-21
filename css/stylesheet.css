@@ -521,24 +521,24 @@ look good.*/
 }
 
 /*Main title page2*/ 
-.h1-page2{
+.main-title-page2{
     font-size: 50px;
     text-align: center;
     text-shadow: 1px 1px 4px #000;
 }
-/**/
+/*Creating the hyperlinks of the navigation bar on page2*/
 .list-container-page2{
     display: flex;
 }
 
-/**/
+/*Style and position of text/hyperlinks in navigation bar page2*/
 .list-container-page2 li{
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-/**/ 
+/*Creating footer box, displayed as flex*/ 
 .footer-container-page2{
     display: flex;
     padding-top: 1px;
@@ -550,20 +550,20 @@ look good.*/
     height: 400px;
 }
 
-/**/
+/*position headings in footer*/
 .footer-container-page2 h3{
     text-align: center;
 
 }
 
-/**/
+/*position paragraph in footer*/
 .footer-container-page2 p{
     text-align: center;
     
 
 }
 
-/**/
+/*Style and position hyperlinks in footer*/
 .footer-container-page2 a{
     text-align: center;
     text-decoration: none;
@@ -573,13 +573,13 @@ look good.*/
 
 }
 
-/**/
+/*Changes the colour of hyperlinks when the cursor hovers the hyperlinks*/
 .footer-container-page2 a:hover{
     color: rgb(194, 193, 193);
 
 }
 
-/**/
+/*Creating small section boxes inside footer section*/
 .footer-content-page2{
     border: 1px solid white;
     width: 225px;
