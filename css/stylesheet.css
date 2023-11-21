@@ -113,6 +113,7 @@ nav a:hover{
     }
     /**/
     .list-container-page2 {
+        z-index: 50;
         transition: linear 100ms;
         position: fixed;
         height: min-content;
@@ -130,7 +131,7 @@ nav a:hover{
         font-size: 5vw !important;
     }
     .main-content-part-page2{
-        width: 100% !important;
+        width: 90% !important;
         
     }
     .main-content-mainsection-page2{
@@ -484,7 +485,7 @@ look good.*/
 /*Displaying the main content box of page 2 as flex. Makes each sub-headings and paragraphs line up as a row*/
 .main-content-mainsection-page2{
     display: flex;
-
+    
 }
 
 /*Creating a small box for each section*/
@@ -494,7 +495,8 @@ look good.*/
     border: 1px solid white;
     /*background-color: white;*/
     width: 30%;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
