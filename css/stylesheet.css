@@ -140,16 +140,16 @@ input {
     }    
 }
 @media (min-width: 1250px) { /*Wide-screen*/
-    /**/
+    /*???Why???*/
     nav ul {
         color:rgb(230, 197, 147);
     }
-    /**/
+    /*Hides the toggle-menu icon in wide screen*/
     #menu-toggle-container {
         display: none;
     }
 
-    /**/
+    /*Size of text-containers in wide screen*/
     .text-child {
        width: 60%;
     }    
@@ -161,9 +161,8 @@ input {
 
 /*Style-classes for standardized segments*/
 
-/*Creates the transparent gray overlay, which the introductory text for each page takes place (other than index
-and page 2).
-This overlays on top of each page's "backdrop"-class, which contains the background-images.*/ 
+/*Transparent gray overlay on introductory text for each page (other than index and page 2).
+ Overlays on top of page's "backdrop" (background-images).*/ 
 .intro-standard { 
     align-items: center;
     padding-left: 10%;
@@ -186,11 +185,10 @@ This overlays on top of each page's "backdrop"-class, which contains the backgro
 }
 
 /*Changes the colour of all h2 elements within the whole page.*/
-h2{
+h2 {
     color: #00FFEF;
-
 }
-/*Creates the layout for each page's "main" content to ble placed within, after the introduction.*/ 
+/*Layout for each page's "main" content to ble placed within, after the introductionary part (not for page 2).*/ 
 .text-standard {  
     display: flex;
     flex-direction: row;
@@ -224,7 +222,7 @@ h2{
     padding-right: 0px;
 }
 
-/*Styling of the "common" footer*/
+/*Styling of the "common" footer found on all pages but page 2.*/
 .footer-container {
     padding-top: 50px;
     margin: auto;
@@ -234,18 +232,18 @@ h2{
     display: flex;
     justify-content: center;
 }
-/**/
+/*Common footer size of each content-chunk*/
 .footer-content{
     width: 33.3%;
 }
-/**/
+/*h3 styling for footer-content*/
 .footer-content h3{
     font-size: 20px;
     margin-bottom: 15px;
     text-align: center;
     color: #00FFEF;
 }
-/**/
+/*Layout and "text-overflow"*/
 .footer-content p{
     width: 100%;
     word-wrap: break-word;
@@ -254,7 +252,7 @@ h2{
     padding-top: 7px;
     padding-bottom: 7px;
 }
-/*Selects all a within footer-content, but not those that have li as a container/parent*/
+/*Selects all anchors within footer-content, but not those that have li as a container/parent*/
 .footer-content a:not( li>a), .footer-content1-page2 a:not( p>a) {
     padding-top: 7px;
     padding-bottom: 7px;
@@ -264,15 +262,15 @@ h2{
     width: 35%;
     display: block;
 }
-/**/
+/*List Styling. Centered*/
 .footer-content ul{
     text-align: center;
 }
-/**/
+/*List styling. Padding*/
 .footer-content-list{
     padding: 0;
 }
-/**/
+/*Footer list "points" Color, shape and position.*/
 .footer-content-list li{
     width: 30%;
     text-align: center;
@@ -283,23 +281,23 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-/**/
+/*Footer links color when not hovered over.*/
 .footer-content a{
     text-decoration: none;
     color: white;
 }
-/**/
+/*Footer links when hovered.*/
 .footer-content a:hover{
     color: #00FFEF;
 }
-/**/
+/*"Your company"-bar styling.*/
 .footer-bottom-bar{
     background: rgb(15, 15, 15);
     text-align: center;
     padding: 10px 0;
     margin-top: 50;
 }
-/**/
+/*"Your company"-bar's content coloring and position.*/
 .footer-bottom-bar p{
     color: #00FFEF;
     margin: 0;
