@@ -424,7 +424,7 @@ look good.*/
     display: grid;
     width: 100%;
     height: 75px;
-    background: linear-gradient(to right,#1703fc, #6203fc 75%);
+    background: linear-gradient(to right,#4502679d, #5c8ebc 75%);
     grid-template-rows: none;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -433,7 +433,7 @@ look good.*/
 /*Hyperlink font style and size*/
 .nav-container-page2 a {
     font-size: 2em;
-    -webkit-text-stroke: 0.05vw rgb(100, 39, 39);
+    -webkit-text-stroke: 0.05vw rgb(255, 254, 254);
     color: rgba(0, 0, 0, 0);
 }
 
@@ -474,7 +474,7 @@ look good.*/
 
 /*The main content box of page 2(biggest box)*/
 .main-content-page2{
-    border: 4px solid rgb(100, 39, 39);
+    border: 4px solid rgb(255, 255, 255);
     /*background-color: white;*/
     width: 100%;
     border-top-left-radius: 15px;
