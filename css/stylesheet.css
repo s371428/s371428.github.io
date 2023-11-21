@@ -81,7 +81,7 @@ input {
 
 
 @media (max-width: 1250px) { /*Phone or device with smaller screen than the usual*/
-    /**/
+    /*Common nav bar. Restructured to a box, which is pushed left out of view while button unchecked.*/
     .list-container {
         transition: linear 100ms;
         position: fixed;
@@ -94,21 +94,24 @@ input {
         align-items:start;
         color: gold;
         flex-direction: column;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
     }  
+    /*Resizes images with !important overriding, but not page 2's images.*/
     img:not(.body-page2 img) {
         padding: 0px !important;
         margin: 0px !important;
         width: 50% !important;
         height:auto !important;
     }
+    /*Overrides text-containers, for style purposes.*/
     .text-child {
         width: 100% !important;
     }
+    /*"Zoom" effect when hovering.*/
     img:hover:not(.body-page2 img) {
         transform: scale(1.1);
     }
+    /**/
     .list-container-page2 {
         transition: linear 100ms;
         position: fixed;
@@ -131,7 +134,7 @@ input {
         transform: scale(1.2);
         transition: linear 100ms;
     }  
-    /**/
+    /*???Why???*/
     .text-child {
         width: 80%;
     }    
