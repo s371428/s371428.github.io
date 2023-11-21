@@ -410,7 +410,14 @@ look good.*/
 
 
 
-/* Page 2 */
+/*START Page 2 */
+/*The whole background of page2*/ 
+.body-page2{
+    background: linear-gradient(to right,#0e0384, #31037b 75%);
+    display: inline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /*Creating a navigation bar for page2. Displayed as a grid*/ 
 .nav-container-page2{
     display: grid;
@@ -445,11 +452,16 @@ look good.*/
     100%  {color: purple;}
   }
 
-/*The whole background of page2*/ 
-.body-page2{
-    background: linear-gradient(to right,#0e0384, #31037b 75%);
-    display: inline;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/*Creating the hyperlinks of the navigation bar on page2*/
+.list-container-page2{
+    display: flex;
+}
+
+/*Style and position of text/hyperlinks in navigation bar page2*/
+.list-container-page2 li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*Setup for the main of page2*/ 
@@ -469,6 +481,13 @@ look good.*/
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 20px;
+}
+
+/*Main title page2*/ 
+.main-title-page2{
+    font-size: 3.2em;
+    text-align: center;
+    text-shadow: 1px 1px 4px #000;
 }
 
 /*Displaying the main content box of page 2 as flex. Makes each sub-headings and paragraphs line up as a row*/
@@ -518,23 +537,6 @@ look good.*/
     object-fit: fill;
 }
 
-/*Main title page2*/ 
-.main-title-page2{
-    font-size: 3.2em;
-    text-align: center;
-    text-shadow: 1px 1px 4px #000;
-}
-/*Creating the hyperlinks of the navigation bar on page2*/
-.list-container-page2{
-    display: flex;
-}
-
-/*Style and position of text/hyperlinks in navigation bar page2*/
-.list-container-page2 li{
-    list-style: none;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 /*Creating footer box, displayed as flex*/ 
 .footer-container-page2{
@@ -551,14 +553,11 @@ look good.*/
 /*position headings in footer*/
 .footer-container-page2 h3{
     text-align: center;
-
 }
 
 /*position paragraph in footer*/
 .footer-container-page2 p{
-    text-align: center;
-    
-
+    text-align: center; 
 }
 
 /*Style and position hyperlinks in footer*/
@@ -568,7 +567,6 @@ look good.*/
     color: white;
     display: block;
     padding: 10px;
-
 }
 
 /*Changes the colour of hyperlinks when the cursor hovers the hyperlinks*/
@@ -600,3 +598,5 @@ look good.*/
     font-size: 1em;
     padding: 7px;
 }
+
+/*END Page 2*/
