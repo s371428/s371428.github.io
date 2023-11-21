@@ -94,7 +94,8 @@ input {
         color: gold;
         flex-direction: column;
         flex-wrap: wrap;        
-    }  
+    }
+
     /*Resizes images with !important overriding, but not page 2's images.*/
     img:not(.body-page2 img) {
         padding: 0px !important;
@@ -127,6 +128,13 @@ input {
     }
     .list-container-page2 a{
         font-size: 5vw !important;
+    }
+    .main-content-part-page2{
+        width: 100% !important;
+        
+    }
+    .main-content-mainsection-page2{
+        flex-direction: column;
     }
     /**/ 
     .list-container li:hover {
@@ -484,10 +492,11 @@ look good.*/
 /*Creating a small box for each section*/
 .main-content-part-page2{
     display: grid;
+    position: relative;
     border: 1px solid white;
     /*background-color: white;*/
-    width: 400px;
-    margin: auto;
+    width: 30%;
+    margin: 20px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -497,10 +506,12 @@ look good.*/
 /*Position and style of each sub-headings(h2)*/
 .main-content-part-page2 h2{
     font-size: 40px;
-    padding-left: 95px;
-    padding-top: 200px;
-    color: rgb(255, 255, 255);
     position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
     text-shadow: 4px 4px 8px #000;
 }
 
