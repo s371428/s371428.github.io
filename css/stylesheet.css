@@ -71,12 +71,13 @@ nav a {
 nav a:hover{
     color:#00FFEF;
 }
-
 /* END Common Nav bar */
+
+
 
 /*START SCREEN RESPONSIVENESS*/
 @media (max-width: 1250px) { /*Phone or device with smaller screen than the usual*/
-    /*Common nav bar. Restructured to a box, which is pushed left out of view while button unchecked.*/
+    /*Common nav bar. Re-structured to a box, which is pushed left out of view while button unchecked.*/
     .list-container {
         transition: linear 100ms;
         position: fixed;
@@ -308,7 +309,7 @@ h2 {
 
 /*Background image for the Index-page*/ 
 .index-backdrop {
-    background-image: url(../media/Oslomet_facade2_edited.webp);
+    background-image: url(/media/Oslomet_facade2_edited.webp);
     /*Photographer: Private*/
     background-size:cover;
     object-fit: fill;
@@ -349,7 +350,7 @@ look good.*/
 .accessibility-backdrop {
     background-size:cover;
     object-fit: fill;
-    background-image: url(../media/Oslomet_entrance.webp); 
+    background-image: url(/media/Oslomet_entrance.webp); 
     /*Photographer: Private*/
 }
 /*END Accessability*/
@@ -363,7 +364,7 @@ look good.*/
 .topical-backdrop {
     background-size:cover;
     object-fit: fill;
-    background-image: url(../media/Oslomet_Train.webp);
+    background-image: url(/media/Oslomet_Train.webp);
     /*Photographer: Private*/
 }
 /*Styling for the "link-section" of the topical page*/
