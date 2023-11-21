@@ -415,7 +415,7 @@ look good.*/
 
 
 /* Page 2 */
-/**/ 
+/*Creating a navigation bar for page2. Displayed as a grid*/ 
 .nav-container-page2{
     display: grid;
     width: 100%;
@@ -425,44 +425,45 @@ look good.*/
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+/*Hyperlink font style and size*/
 .nav-container-page2 a {
     font-size: 30px;
     -webkit-text-stroke: 0.05vw white;
     color: rgba(0, 0, 0, 0);
 }
 
+/*changes the colour of the hyperlinks in the navigation bar, when the cursor hovers each hyperlink*/
 .nav-container-page2 a:hover{
     animation-name: ShiftColor;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
+
+/*Performing a pulsing effect that changes the colours of each paragraph in a loop when the cursor hovers each hyperlink*/
 @keyframes ShiftColor {
     0%  {color: orange;}
     25%  {color: purple;}
     50%  {color: orange;}
     100%  {color: purple;}
   }
-/**/ 
+
+/*The whole background of page2*/ 
 .body-page2{
     background: linear-gradient(to right,#0e0384, #31037b 75%);
     display: inline;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/**/ 
+/*Setup for the main of page2*/ 
 .main-page2{
     display: flex;
     color: white;
     padding: 20px;
 }
 
-.main-page2 h2{
-    color: rgb(255, 255, 255);
-    position: absolute;
-}
-
-/**/
+/*The main content box of page 2(biggest box)*/
 .main-content-page2{
     border: 1px solid white;
     /*background-color: white;*/
@@ -474,11 +475,13 @@ look good.*/
     padding: 20px;
 }
 
+/*Displaying the main content box of page 2 as flex. Makes each sub-headings and paragraphs line up as a row*/
 .main-content-mainsection-page2{
     display: flex;
 
 }
 
+/*Creating a small box for each section*/
 .main-content-part-page2{
     display: grid;
     border: 1px solid white;
@@ -491,17 +494,23 @@ look good.*/
     border-bottom-right-radius: 15px;
 }
 
+/*Position and style of each sub-headings(h2)*/
 .main-content-part-page2 h2{
-    padding-left: 115px;
-    padding-top: 75px;
+    font-size: 40px;
+    padding-left: 95px;
+    padding-top: 200px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-shadow: 4px 4px 8px #000;
 }
 
+/*Position of paragraphs for each sub-sections*/
 .main-content-part-page2 p{
     line-height: 40px;
     padding: 10px;
 }
 
-
+/*Image style and size for each sub-sections*/
 .main-content-image-page2{
     width: 100%;
     height: auto;
@@ -511,16 +520,18 @@ look good.*/
     object-fit: fill;
 }
 
-/*Title page2*/ 
+/*Main title page2*/ 
 .h1-page2{
     font-size: 50px;
     text-align: center;
-
+    text-shadow: 1px 1px 4px #000;
 }
 /**/
 .list-container-page2{
     display: flex;
 }
+
+/**/
 .list-container-page2 li{
     list-style: none;
     margin-left: 10px;
@@ -545,11 +556,13 @@ look good.*/
 
 }
 
+/**/
 .footer-container-page2 p{
     text-align: center;
 
 }
 
+/**/
 .footer-container-page2 a{
     text-align: center;
     text-decoration: none;
@@ -557,6 +570,7 @@ look good.*/
 
 }
 
+/**/
 .footer-container-page2 a:hover{
     color: rgb(194, 193, 193);
 
@@ -573,6 +587,7 @@ look good.*/
     border-bottom-right-radius: 15px;
 }
 
+/**/
 .footer-content2-page2{
     border: 1px solid white;
     width: 225px;
@@ -583,6 +598,7 @@ look good.*/
     border-bottom-right-radius: 15px;
 }
 
+/**/
 .footer-content3-page2{
     border: 1px solid white;
     width: 225px;
