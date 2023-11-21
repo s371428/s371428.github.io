@@ -339,13 +339,15 @@ look good.*/
     padding-right: 25%;
     font-size: 1.3em;
 } 
+
 /* END Index */
 
 
 
 
 
-/*START Accessibility*/
+/* START Accessibility */
+
 /*Background image behind the introductionary part of the page.*/ 
 .accessibility-backdrop {
     background-size:cover;
@@ -353,13 +355,15 @@ look good.*/
     background-image: url(/media/Oslomet_entrance.webp); 
     /*Photographer: Private*/
 }
-/*END Accessability*/
+
+/* END Accessability */
 
 
 
 
 
-/*START Topical */
+/* START Topical */
+
 /*Background image behind the introductionary part of the page.*/
 .topical-backdrop {
     background-size:cover;
@@ -386,13 +390,15 @@ look good.*/
 .topical-content-more-information a:hover{
     color: white;
 }
-/*END Topical*/
+
+/* END Topical */
 
 
 
 
 
-/*START Page 1*/
+/* START Page 1 */
+
 /*Background image behind the introductionary part of the page.*/
 .page1-backdrop {
     background-size: cover;
@@ -403,7 +409,8 @@ look good.*/
     https://uniform.no/prosjekter/oslomet-med-ny-brukervennlig-og-kraftig-profil/
     */
 }
-/*END Page1*/
+
+/* END Page1 */
 
 
 
@@ -412,7 +419,8 @@ look good.*/
 
 
 
-/*START Page 2 */
+/* START Page 2 */
+
 /*The whole background of page2*/ 
 .body-page2{
     background: linear-gradient(to right,#590384, #669dd1 75%);
@@ -606,4 +614,4 @@ look good.*/
     padding: 7px;
 }
 
-/*END Page 2*/
+/* END Page 2 */
