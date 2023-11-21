@@ -577,29 +577,7 @@ look good.*/
 }
 
 /**/
-.footer-content1-page2{
-    border: 1px solid white;
-    width: 225px;
-    margin: auto;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-/**/
-.footer-content2-page2{
-    border: 1px solid white;
-    width: 225px;
-    margin: auto;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-/**/
-.footer-content3-page2{
+.footer-content-page2{
     border: 1px solid white;
     width: 225px;
     margin: auto;
