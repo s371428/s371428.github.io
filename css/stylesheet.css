@@ -421,7 +421,7 @@ look good.*/
 
 
 
-/* Page 2 */
+/*START Page 2 */
 /*The whole background of page2*/ 
 .body-page2{
     background: linear-gradient(to right,#0e0384, #31037b 75%);
@@ -566,14 +566,11 @@ look good.*/
 /*position headings in footer*/
 .footer-container-page2 h3{
     text-align: center;
-
 }
 
 /*position paragraph in footer*/
 .footer-container-page2 p{
-    text-align: center;
-    
-
+    text-align: center; 
 }
 
 /*Style and position hyperlinks in footer*/
@@ -583,7 +580,6 @@ look good.*/
     color: white;
     display: block;
     padding: 10px;
-
 }
 
 /*Changes the colour of hyperlinks when the cursor hovers the hyperlinks*/
@@ -617,3 +613,5 @@ look good.*/
     font-size: 1em;
     padding: 7px;
 }
+
+/*END Page 2*/
