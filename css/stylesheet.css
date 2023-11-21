@@ -589,3 +589,18 @@ look good.*/
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+/*Creating bottom bar section*/
+.footer-bottom-bar-page2{
+    background: linear-gradient(to top,#1703fc, #6203fc);;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50;
+}
+/*bottom bar's content coloring and position page2.*/
+.footer-bottom-bar-page2 p{
+    color: #ffffff;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
