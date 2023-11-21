@@ -549,7 +549,7 @@ look good.*/
     padding-top: 1px;
     width: 100%;
     color: white;
-    background: linear-gradient(to right,#1703fc, #6203fc 75%);
+    background: linear-gradient(to right,#590384, #669dd1 75%);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     height: 400px;
@@ -594,7 +594,7 @@ look good.*/
 
 /*Creating bottom bar section*/
 .footer-bottom-bar-page2{
-    background: linear-gradient(to top,#1703fc, #6203fc);;
+    background: linear-gradient(to top,#4502679d, #5c8ebc);;
     text-align: center;
     padding: 10px 0;
 }
