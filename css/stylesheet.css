@@ -578,7 +578,8 @@ look good.*/
 /*Creating small section boxes inside footer section*/
 .footer-content-page2{
     border: 1px solid white;
-    width: 225px;
+    width: 30%;
+    word-break: break-all;
     margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
