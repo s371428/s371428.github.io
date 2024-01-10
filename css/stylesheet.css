@@ -28,7 +28,7 @@ body, header, nav {
 
 
 
-/* START Common Nav bar. (Common refers to common style, where page 2 therefore would be "uncommon"). */
+/* START Common Nav bar. (Common refers to common style, where stairs therefore would be "uncommon"). */
 /*Container for our navigation in normal view (desktop)*/
 .nav-container {
 width: 100%;
@@ -112,7 +112,7 @@ nav a:hover{
         flex-wrap: wrap;        
     }
 
-    /*Resizes images with !important overriding, but not page 2's images.*/
+    /*Resizes images with !important overriding, but not stairs's images.*/
     img:not(.body-stairs img) {
         padding: 0px;
         margin: 0px;
