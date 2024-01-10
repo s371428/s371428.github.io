@@ -191,6 +191,10 @@ nav a:hover{
     .main-content-part-stairs{
         width: 30%;
     }
+    .intro-standard { 
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 }
 /*END SCREEN RESPONSIVENESS*/
 
@@ -207,8 +211,6 @@ nav a:hover{
     padding-right: 10%;
     padding-top: 7%;
     padding-bottom: 20%;
-    margin-left: 10vw;
-    margin-right: 10vw;
     width: auto;
     height: 100%;
     color: white;
