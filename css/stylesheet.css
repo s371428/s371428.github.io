@@ -113,7 +113,7 @@ nav a:hover{
     }
 
     /*Resizes images with !important overriding, but not page 2's images.*/
-    img:not(.body-page2 img) {
+    img:not(.body-stairs img) {
         padding: 0px;
         margin: 0px;
         width: 50%;
@@ -143,11 +143,11 @@ nav a:hover{
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .list-container-page2 a{
+    .list-container-stairs a{
         font-size: 5vw;
     }
     /*Changes the direction to a column, and makes it wider; easier phone readability*/
-    .main-content-part-page2{
+    .main-content-part-stairs{
         width: 90%;
         
     }
@@ -183,12 +183,12 @@ nav a:hover{
         display: none;
     }
     /*Hyperlink font style and size*/
-    .nav-container-page2 a {
+    .nav-container-stairs a {
     font-size: 2em;
     -webkit-text-stroke: 0.05vw rgb(255, 254, 254);
     color: rgba(0, 0, 0, 0);
     }
-    .main-content-part-page2{
+    .main-content-part-stairs{
         width: 30%;
     }
 }
@@ -277,7 +277,7 @@ h2 {
     padding-bottom: 7px;
 }
 /*Selects all anchors within footer-content, but not those that have li as a container/parent*/
-.footer-content a:not( li>a), .footer-content1-page2 a:not( p>a) {
+.footer-content a:not( li>a), .footer-content1-stairs a:not( p>a) {
     padding-top: 7px;
     padding-bottom: 7px;
     text-align: center;
