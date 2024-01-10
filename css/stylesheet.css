@@ -35,7 +35,7 @@ input {
      height: 28px;    
      background-size: cover;
      display: block;
-     background-image: url(media/menu-icon-2.svg);
+     background-image: url(/./media/menu-icon-2.svg);
      /*Creator: Private member of the team*/
  }
  /*Whenever checked the list-container, appears on the screen on the left side.*/
@@ -309,7 +309,7 @@ h2 {
 
 /*Background image for the Index-page*/ 
 .index-backdrop {
-    background-image: url(media/oslomet-facade2-edited.webp);
+    background-image: url(/./media/oslomet-facade2-edited.webp);
     /*Photographer: Private*/
     background-size:cover;
     object-fit: fill;
@@ -352,7 +352,7 @@ look good.*/
 .accessibility-backdrop {
     background-size:cover;
     object-fit: fill;
-    background-image: url(media/oslomet-entrance.webp); 
+    background-image: url(/./media/oslomet-entrance.webp); 
     /*Photographer: Private*/
 }
 
@@ -368,7 +368,7 @@ look good.*/
 .topical-backdrop {
     background-size:cover;
     object-fit: fill;
-    background-image: url(media/oslomet-train.webp);
+    background-image: url(/./media/oslomet-train.webp);
     /*Photographer: Private*/
 }
 /*Styling for the "link-section" of the topical page*/
@@ -404,7 +404,7 @@ look good.*/
     background-size: cover;
     height: 20%;
     object-fit: fill;
-    background-image: url(media/oslomet-front.jpg); 
+    background-image: url(/./media/oslomet-front.jpg); 
     /*By uniform_oslo. Image copied from:
     https://uniform.no/prosjekter/oslomet-med-ny-brukervennlig-og-kraftig-profil/
     */
