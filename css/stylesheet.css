@@ -94,7 +94,7 @@ nav a:hover{
     }
 
     /*Resizes images with !important overriding, but not page 2's images.*/
-    img:not(.body-page2 img) {
+    img:not(.body-stairs img) {
         padding: 0px !important;
         margin: 0px !important;
         width: 50% !important;
@@ -105,11 +105,11 @@ nav a:hover{
         width: 100% !important;
     }
     /*"Zoom" effect when hovering on a smaller screen.*/
-    img:hover:not(.body-page2 img) {
+    img:hover:not(.body-stairs img) {
         transform: scale(1.1);
     }
     /*Centers the menu and makes it fixed to the top of the screen and not page, whenever on a smaller screen*/
-    .list-container-page2 {
+    .list-container-stairs {
         z-index: 50;
         transition: linear 100ms;
         position: fixed;
@@ -124,15 +124,15 @@ nav a:hover{
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .list-container-page2 a{
+    .list-container-stairs a{
         font-size: 5vw !important;
     }
     /*Changes the direction to a column, and makes it wider; easier phone readability*/
-    .main-content-part-page2{
+    .main-content-part-stairs{
         width: 90% !important;
         
     }
-    .main-content-mainsection-page2{
+    .main-content-mainsection-stairs{
         flex-direction: column;
     }
     /*Additional to responsive design to smaller screens, where it expands a bit whenever hovered.*/ 
@@ -159,7 +159,7 @@ nav a:hover{
 
 /*START STANDARDIZED SEGMENTS*/
 
-/*Transparent gray overlay on introductory text for each page (other than index and page 2).
+/*Transparent gray overlay on introductory text for each page (other than index and the stairs page).
  Overlays on top of page's "backdrop" (background-images).*/ 
 .intro-standard { 
     align-items: center;
@@ -185,7 +185,7 @@ nav a:hover{
 h2 {
     color: #00FFEF;
 }
-/*Layout for each page's "main" content to ble placed within, after the introductionary part (not for page 2).*/ 
+/*Layout for each page's "main" content to ble placed within, after the introductionary part (not for the stairs page).*/ 
 .text-standard {  
     display: flex;
     flex-direction: row;
@@ -218,7 +218,7 @@ h2 {
     padding-right: 0px;
 }
 
-/*Styling of the "common" footer found on all pages but page 2.*/
+/*Styling of the "common" footer found on all pages but the stairs page.*/
 .footer-container {
     padding-top: 50px;
     margin: auto;
@@ -419,17 +419,17 @@ look good.*/
 
 
 
-/* START Page 2 */
+/* START Stairs */
 
-/*The whole background of page2*/ 
-.body-page2{
+/*The whole background of stairs*/ 
+.body-stairs{
     background: linear-gradient(to right,#590384, #669dd1 75%);
     display: inline;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*Creating a navigation bar for page2. Displayed as a grid*/ 
-.nav-container-page2{
+/*Creating a navigation bar for stairs. Displayed as a grid*/ 
+.nav-container-stairs{
     display: grid;
     width: 100%;
     height: 75px;
@@ -440,14 +440,14 @@ look good.*/
 }
 
 /*Hyperlink font style and size*/
-.nav-container-page2 a {
+.nav-container-stairs a {
     font-size: 2em;
     -webkit-text-stroke: 0.05vw rgb(255, 254, 254);
     color: rgba(0, 0, 0, 0);
 }
 
 /*changes the colour of the hyperlinks in the navigation bar, when the cursor hovers each hyperlink*/
-.nav-container-page2 a:hover{
+.nav-container-stairs a:hover{
     animation-name: ShiftColor;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -462,27 +462,27 @@ look good.*/
     100%  {color: purple;}
   }
 
-/*Creating the hyperlinks of the navigation bar on page2*/
-.list-container-page2{
+/*Creating the hyperlinks of the navigation bar on the stairs page*/
+.list-container-stairs{
     display: flex;
 }
 
-/*Style and position of text/hyperlinks in navigation bar page2*/
-.list-container-page2 li{
+/*Style and position of text/hyperlinks in navigation bar on the stairs page*/
+.list-container-stairs li{
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-/*Setup for the main of page2*/ 
-.main-page2{
+/*Setup for the main of the stairs page*/ 
+.main-stairs{
     display: flex;
     color: #ffffff;
     padding: 20px;
 }
 
-/*The main content box of page 2(biggest box)*/
-.main-content-page2{
+/*The main content box of stairs page(biggest box)*/
+.main-content-stairs{
     border: 4px solid rgb(255, 255, 255);
     /*background-color: white;*/
     width: 100%;
@@ -493,20 +493,20 @@ look good.*/
     padding: 20px;
 }
 
-/*Main title page2*/ 
-.main-title-page2{
+/*Main title stairs*/ 
+.main-title-stairs{
     font-size: 3.2em;
     text-align: center;
     text-shadow: 1px 1px 4px #000;
 }
 
-/*Displaying the main content box of page 2 as flex. Makes each sub-headings and paragraphs line up as a row*/
-.main-content-mainsection-page2{
+/*Displaying the main content box of of the stairs page as flex. Makes each sub-headings and paragraphs line up as a row*/
+.main-content-mainsection-stairs{
     display: flex;
 }
 
 /*Creating a small box for each section*/
-.main-content-part-page2{
+.main-content-part-stairs{
     display: grid;
     position: relative;
     border: 1px solid rgb(255, 255, 255);
@@ -520,7 +520,7 @@ look good.*/
 }
 
 /*Position and style of each sub-headings(h2)*/
-.main-content-part-page2 h2{
+.main-content-part-stairs h2{
     font-size: 2.5em;
     position: absolute;
     left: 50%;
@@ -532,13 +532,13 @@ look good.*/
 }
 
 /*Position of paragraphs for each sub-sections*/
-.main-content-part-page2 p{
+.main-content-part-stairs p{
     line-height: 40px;
     padding: 10px;
 }
 
 /*Image style and size for each sub-sections*/
-.main-content-image-page2{
+.main-content-image-stairs{
     width: 100%;
     height: auto;
     border-top-left-radius: 15px;
@@ -549,7 +549,7 @@ look good.*/
 
 
 /*Creating footer box, displayed as flex*/ 
-.footer-container-page2{
+.footer-container-stairs{
     display: flex;
     padding-top: 1px;
     width: 100%;
@@ -561,17 +561,17 @@ look good.*/
 }
 
 /*position headings in footer*/
-.footer-container-page2 h3{
+.footer-container-stairs h3{
     text-align: center;
 }
 
 /*position paragraph in footer*/
-.footer-container-page2 p{
+.footer-container-stairs p{
     text-align: center; 
 }
 
 /*Style and position hyperlinks in footer*/
-.footer-container-page2 a{
+.footer-container-stairs a{
     text-align: center;
     text-decoration: none;
     color: white;
@@ -580,13 +580,13 @@ look good.*/
 }
 
 /*Changes the colour of hyperlinks when the cursor hovers the hyperlinks*/
-.footer-container-page2 a:hover{
+.footer-container-stairs a:hover{
     color: rgb(194, 193, 193);
 
 }
 
 /*Creating small section boxes inside footer section*/
-.footer-content-page2{
+.footer-content-stairs{
     border: 1px solid white;
     width: 30%;
     word-break: break-all;
@@ -598,16 +598,16 @@ look good.*/
 }
 
 /*Creating bottom bar section*/
-.footer-bottom-bar-page2{
+.footer-bottom-bar-stairs{
     background: linear-gradient(to top,#4502679d, #5c8ebc);;
     text-align: center;
     padding: 10px 0;
 }
-/*bottom bar's content coloring and position page2.*/
-.footer-bottom-bar-page2 p{
+/*bottom bar's content coloring and position of the stairs page.*/
+.footer-bottom-bar-stairs p{
     color: #ffffff;
     font-size: 1em;
     padding: 7px;
 }
 
-/* END Page 2 */
+/* END Stairs */
