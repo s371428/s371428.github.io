@@ -519,10 +519,6 @@ look good.*/
     border-bottom-right-radius: 15px;
 }
 
-.main-content-part-page2:hover{
-    transform: scale(1.02);
-}
-
 /*Position and style of each sub-headings(h2)*/
 .main-content-part-page2 h2{
     font-size: 2.5em;
