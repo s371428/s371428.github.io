@@ -94,19 +94,11 @@ nav a:hover{
     }
 
     /*Resizes images with !important overriding, but not page 2's images.*/
-<<<<<<< Updated upstream
-    img:not(.body-stairs img) {
-        padding: 0px !important;
-        margin: 0px !important;
-        width: 50% !important;
-        height:auto !important;
-=======
     img:not(.body-page2 img) {
         padding: 0px;
         margin: 0px;
         width: 50%;
         height: auto;
->>>>>>> Stashed changes
     }
     /*Overrides text-containers width, for easier readability on portrait phone screens.*/
     .text-child {
@@ -132,21 +124,12 @@ nav a:hover{
         flex-direction: row;
         flex-wrap: wrap;
     }
-<<<<<<< Updated upstream
-    .list-container-stairs a{
-        font-size: 5vw !important;
-    }
-    /*Changes the direction to a column, and makes it wider; easier phone readability*/
-    .main-content-part-stairs{
-        width: 90% !important;
-=======
     .list-container-page2 a{
         font-size: 5vw;
     }
     /*Changes the direction to a column, and makes it wider; easier phone readability*/
     .main-content-part-page2{
         width: 90%;
->>>>>>> Stashed changes
         
     }
     .main-content-mainsection-stairs{
@@ -465,15 +448,6 @@ look good.*/
     border-bottom-right-radius: 5px;
 }
 
-<<<<<<< Updated upstream
-/*Hyperlink font style and size*/
-.nav-container-stairs a {
-    font-size: 2em;
-    -webkit-text-stroke: 0.05vw rgb(255, 254, 254);
-    color: rgba(0, 0, 0, 0);
-}
-=======
->>>>>>> Stashed changes
 
 /*changes the colour of the hyperlinks in the navigation bar, when the cursor hovers each hyperlink*/
 .nav-container-stairs a:hover{
