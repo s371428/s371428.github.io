@@ -1,4 +1,25 @@
-/*Standard values for all pages, headers and nav. Text-font, scroll, and removal of padding and margin.*/
+/* INNHOLDSFORTEGNELSE
+    - Common values for all pages
+    
+    - Common NAVBAR
+
+    - Screen responsiveness
+
+    - Standardized segments
+
+    - Index page specifics
+
+    - Accessibility page specifics
+
+    - Topical page specifics
+
+    - Logo page specifics
+
+    - Stairs page specifics
+*/
+
+
+/*Common values for all pages, headers and nav. Text-font, scroll, and removal of padding and margin.*/
 body, header, nav {
     margin: 0;
     padding: 0;
