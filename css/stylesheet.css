@@ -95,7 +95,7 @@ nav a:hover{
 
 
 /*START SCREEN RESPONSIVENESS*/
-@media (max-width: 1250px) { /*Phone or device with smaller screen than the usual*/
+@media (max-width: 992px) { /*Phone or device with smaller screen than the usual*/
     /*Common nav bar. Re-structured to a box, which is pushed left out of view while button unchecked.*/
     .list-container {
         transition: linear 100ms;
@@ -112,14 +112,14 @@ nav a:hover{
         flex-wrap: wrap;        
     }
 
-    /*Resizes images with !important overriding, but not stairs's images.*/
+    /*Resizes images, but not stairs's images.*/
     img:not(.body-stairs img) {
         padding: 0px;
         margin: 0px;
         width: 50%;
         height: auto;
     }
-    /*Overrides text-containers width, for easier readability on portrait phone screens.*/
+    /*changes text-containers width, for easier readability on portrait phone screens.*/
     .text-child {
         width: 100% ;
     }
@@ -158,26 +158,45 @@ nav a:hover{
     .list-container li:hover {
         transform: scale(1.2);
         transition: linear 100ms;
-    }  
-  
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-content {
+        width: 100%;
+    }
+    .footer-container-stairs {
+        flex-direction: column;
+    }
+    .footer-content-stairs {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
-@media (min-width: 1250px) { /*Wide-screen*/
+@media (min-width: 992px) { /*Wide-screen*/
     /*Sizing and padding of images in accordance of their wanted position on the page.*/
     .left-image{
-        height: 300px;
+
+        min-height: 250px;
+        max-height: 250px;
         padding: 20px;
         padding-left: 0px;
     }
     /*Sizing and padding of images in accordance of their wanted position on the page.*/
     .right-image{
-        height: 300px;
+  
+        min-height: 250px;
+        max-height: 250px;
         padding: 20px;
         padding-right: 0px;
     }
     /*Size of text-containers in wide screen*/
     .text-child {
-       width: 60%;
-    }  
+       width: calc(100% - 300px);
+    } 
     /*Hides the toggle-menu icon in wide screen*/
     #menu-toggle-container {
         display: none;
@@ -194,6 +213,16 @@ nav a:hover{
     .intro-standard { 
         margin-left: 10vw;
         margin-right: 10vw;
+    }
+    .footer {
+
+    }
+    /*Common footer size of each content-chunk*/
+    .footer-content {
+        width: 33.3%;
+    }
+    .footer-content-stairs {
+        margin: auto;
     }
 }
 /*END SCREEN RESPONSIVENESS*/
@@ -258,10 +287,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
-/*Common footer size of each content-chunk*/
-.footer-content{
-    width: 33.3%;
-}
+
 /*h3 styling for footer-content*/
 .footer-content h3{
     font-size: 1.5em;
@@ -580,7 +606,6 @@ look good.*/
     background: linear-gradient(to right,#590384, #669dd1 75%);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    height: 400px;
 }
 
 /*position headings in footer*/
@@ -613,7 +638,6 @@ look good.*/
     border: 1px solid white;
     width: 30%;
     word-break: break-all;
-    margin: auto;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
