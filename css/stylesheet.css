@@ -111,7 +111,6 @@ nav a:hover{
         flex-direction: column;
         flex-wrap: wrap;        
     }
-
     /*Resizes images, but not stairs's images.*/
     img:not(.body-stairs img) {
         padding: 0px;
@@ -122,10 +121,6 @@ nav a:hover{
     /*changes text-containers width, for easier readability on portrait phone screens.*/
     .text-child {
         width: 100% ;
-    }
-    /*"Zoom" effect when hovering on a smaller screen.*/
-    img:hover:not(.body-stairs img) {
-        transform: scale(1.1);
     }
     /*Centers the menu and makes it fixed to the top of the screen and not page, whenever on a smaller screen*/
     .list-container-stairs {
