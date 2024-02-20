@@ -17,6 +17,14 @@
 */
 
 
+
+
+
+
+
+
+
+
 /*Common values for all pages, headers and nav. Text-font, scroll, and removal of padding and margin.*/
 body, header, nav {
     margin: 0;
@@ -24,6 +32,15 @@ body, header, nav {
     scroll-behavior: smooth;
     font-family: "Moderat","Avenir","Helvetica","Arial",sans-serif;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,6 +108,17 @@ nav a:hover{
     color:#00FFEF;
 }
 /* END Common Nav bar */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -239,6 +267,17 @@ nav a:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*START STANDARDIZED SEGMENTS*/
 
 /*Transparent gray overlay on introductory text for each page (other than index and the stairs page).
@@ -370,6 +409,18 @@ h2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* START Index */
 
 /*Background image for the Index-page*/ 
@@ -411,6 +462,19 @@ look good.*/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* START Accessibility */
 
 /*Background image behind the introductionary part of the page.*/ 
@@ -422,6 +486,16 @@ look good.*/
 }
 
 /* END Accessability */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -462,6 +536,16 @@ look good.*/
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* START Logo */
 
 /*Background image behind the introductionary part of the page.*/
@@ -476,6 +560,12 @@ look good.*/
 }
 
 /* END logo */
+
+
+
+
+
+
 
 
 
