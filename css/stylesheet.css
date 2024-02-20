@@ -95,7 +95,7 @@ nav a:hover{
 
 
 /*START SCREEN RESPONSIVENESS*/
-@media (max-width: 992px) { /*Phone or device with smaller screen than the usual*/
+@media (max-width: 768px) { /*Phone or device with smaller screen than the usual*/
     /*Common nav bar. Re-structured to a box, which is pushed left out of view while button unchecked.*/
     .list-container {
         transition: linear 100ms;
@@ -170,11 +170,10 @@ nav a:hover{
         margin-right: auto;
     }
 
-}
-@media (min-width: 992px) { /*Wide-screen*/
+}   
+@media (min-width: 769px) { /*Wide-screen*/
     /*Sizing and padding of images in accordance of their wanted position on the page.*/
     .left-image{
-
         min-height: 250px;
         max-height: 250px;
         padding: 20px;
@@ -182,16 +181,34 @@ nav a:hover{
     }
     /*Sizing and padding of images in accordance of their wanted position on the page.*/
     .right-image{
-  
         min-height: 250px;
         max-height: 250px;
         padding: 20px;
         padding-right: 0px;
     }
+    /*Sizing and padding of images in accordance of their wanted position on the page.*/
+    .oslomet-logo-image{
+        height: 100%;  
+        min-width: 250px;
+        max-width: 250px;
+        padding: inherit;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    /*Sizing and padding of images in accordance of their wanted position on the page.*/
+    .oversized-image{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: auto;
+    }
     /*Size of text-containers in wide screen*/
     .text-child {
        width: calc(100% - 300px);
     } 
+    text-child-accessibility {
+        width: 100%;
+    }
     /*Hides the toggle-menu icon in wide screen*/
     #menu-toggle-container {
         display: none;
