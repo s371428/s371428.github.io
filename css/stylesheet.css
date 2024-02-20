@@ -645,7 +645,7 @@ look good.*/
 /*Creating small section boxes inside footer section*/
 .footer-content-stairs{
     border: 1px solid white;
-    width: 30%;
+    width: 50%;
     word-break: break-all;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
